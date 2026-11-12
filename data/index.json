@@ -1,0 +1,48 @@
+{
+ "generated": "2026-11-12T05:22:57.000Z",
+ "days": [
+  {
+   "day": 2,
+   "tag": "day02",
+   "title": "Content Plan, Social Media Graphics and Copy",
+   "unit": "Create content · LO1 Plan and LO2 Produce digital marketing content",
+   "activities": [
+    {
+     "id": "2.0",
+     "title": "Warm-up: Audience, Goals and Keywords",
+     "mode": "Individual",
+     "minutes": 15,
+     "points": 10
+    },
+    {
+     "id": "2.1",
+     "title": "Content Strategy for an MSME",
+     "mode": "Individual",
+     "minutes": 90,
+     "points": 30
+    },
+    {
+     "id": "2.2",
+     "title": "Keyword Research and Two-Week Content Calendar",
+     "mode": "Individual",
+     "minutes": 120,
+     "points": 30
+    },
+    {
+     "id": "2.3",
+     "title": "Social Media Graphics and Proofread Copy",
+     "mode": "Individual",
+     "minutes": 150,
+     "points": 40
+    },
+    {
+     "id": "2.4",
+     "title": "Spot the Problems: Proofread a Poster",
+     "mode": "Pair",
+     "minutes": 20,
+     "points": 10
+    }
+   ]
+  }
+ ]
+}

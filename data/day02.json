@@ -1,0 +1,900 @@
+{
+ "day": 2,
+ "tag": "day02",
+ "title": "Content Plan, Social Media Graphics and Copy",
+ "unit": "Create content · LO1 Plan and LO2 Produce digital marketing content",
+ "video": "",
+ "lesson": [
+  {
+   "h": "Learning Outcomes",
+   "html": "<p>Day 2 is face-to-face in the computer laboratory. By the end of the day you should be able to:</p><ol><li>communicate the purpose, goals and vision of content for an MSME;</li><li>identify the audience and select platforms, equipment and tools;</li><li>research content keywords and build a two-week content calendar; and</li><li>produce social media graphics with legal media and proofread persuasive copy.</li></ol><p>The activities follow <strong>Task Sheet 1.1-1</strong> (content plan and calendar) and <strong>Task Sheet 2.1-1</strong> (graphics and copy). You work in the lab's <strong>Content Planner</strong> and <strong>Post Composer</strong>; design the graphics in Canva, then upload them to the composer.</p>"
+  },
+  {
+   "h": "Part 2 — Purpose, Audience, Platforms and Tools",
+   "html": "<p class=\"kicker\">Information Sheet 1.1-1</p><p>After this part you should be able to:</p><ol><li>explain basic marketing principles and the purpose, goals and vision of a brand;</li><li>describe the digital marketing channels and platforms;</li><li>identify the audience (cold, warm, hot, active customers) based on messaging; and</li><li>select platforms, equipment and tools based on the identified audience.</li></ol><h3>Digital Marketing</h3><p><strong>Digital marketing</strong> is the promotion of brands, products and services to potential customers using the internet and other digital communication. <strong>Digital marketing content</strong> is anything a brand publishes to attract, engage and convert its audience: posts, graphics, videos, blog articles, e-mails and ads.</p><h3>Basic Marketing Principles: the 4 Ps</h3><div class=\"tblwrap\"><table><thead><tr><th>P</th><th>Question</th><th>Example: Kape't Alon Cafe, San Juan, La Union</th></tr></thead><tbody><tr><td>Product</td><td>What do we sell and what problem does it solve?</td><td>Iced coffee and pandesal for surfers and tourists</td></tr><tr><td>Price</td><td>How much, and how does it compare?</td><td>P149 breakfast set; weekend promo 10% off</td></tr><tr><td>Place</td><td>Where can customers buy?</td><td>Beachfront shop; orders through Facebook Messenger</td></tr><tr><td>Promotion</td><td>How do customers learn about it?</td><td>Instagram Reels, TikTok videos, Facebook posts, Google Maps listing</td></tr></tbody></table></div><h3>Purpose, Goals and Vision</h3><p>Every piece of content must support what the business wants to achieve. Communicate these three statements before you create anything:</p><div class=\"tblwrap\"><table><thead><tr><th>Statement</th><th>Answers</th><th>Example</th></tr></thead><tbody><tr><td>Vision</td><td>What the brand wants to become in the long term</td><td>\"The favorite coffee stop of every surfer in La Union\"</td></tr><tr><td>Purpose</td><td>Why the content exists</td><td>Make more people aware of the cafe and its breakfast set</td></tr><tr><td>Goals (SMART)</td><td>Specific, Measurable, Achievable, Relevant, Time-bound targets</td><td>\"Reach 15,000 people and get 60 Messenger orders in 2 weeks\"</td></tr></tbody></table></div><h3>Digital Marketing Channels</h3><div class=\"tblwrap\"><table><thead><tr><th>Channel</th><th>Best for</th><th>Content formats</th></tr></thead><tbody><tr><td>Social media</td><td>Awareness, engagement, community</td><td>Posts, carousels, Reels/TikTok, stories, live video</td></tr><tr><td>Blog</td><td>Search traffic, trust, detailed information</td><td>Articles, guides, reviews</td></tr><tr><td>Vlog</td><td>Storytelling and demonstrations</td><td>YouTube videos, Shorts</td></tr><tr><td>E-mail</td><td>Repeat customers, offers, newsletters</td><td>Newsletters, promos, reminders</td></tr><tr><td>Ads</td><td>Fast, targeted reach</td><td>Boosted posts, image/video ads, search ads</td></tr></tbody></table></div><h3>Audience and Messaging</h3><p>The same message does not work for everyone. Identify the <strong>audience temperature</strong> and match the message:</p><div class=\"tblwrap\"><table><thead><tr><th>Audience</th><th>Who they are</th><th>Message that works</th><th>Example content</th></tr></thead><tbody><tr><td>Cold</td><td>Never heard of the brand</td><td>Attention and value: entertain or teach</td><td>Reel: \"3 surf spots near San Juan + where to get coffee\"</td></tr><tr><td>Warm</td><td>Know the brand, have interacted</td><td>Proof and reasons to choose you</td><td>Customer reviews, behind-the-scenes, menu carousel</td></tr><tr><td>Hot</td><td>Ready to buy, showed intent</td><td>Offer and clear call to action</td><td>\"Weekend promo: 10% off - message us to reserve\"</td></tr><tr><td>Active customers</td><td>Already bought</td><td>Loyalty and referral</td><td>Loyalty card post, \"tag a friend\" promo</td></tr></tbody></table></div><h3>Selecting Platforms</h3><p>Choose platforms where the identified audience already spends time, and that fit the content you can produce:</p><div class=\"tblwrap\"><table><thead><tr><th>Platform</th><th>Main audience in the Philippines</th><th>Strength</th></tr></thead><tbody><tr><td>Facebook</td><td>Broadest, all ages; local communities and groups</td><td>Posts, events, Messenger orders, Marketplace</td></tr><tr><td>Instagram</td><td>Young adults, travel and lifestyle</td><td>Visual feed, Reels, stories</td></tr><tr><td>TikTok</td><td>Teens to young adults, fast-growing for all ages</td><td>Short video discovery, trends</td></tr><tr><td>YouTube</td><td>All ages, search-driven</td><td>Long and short video, tutorials, reviews</td></tr><tr><td>LinkedIn</td><td>Professionals, business-to-business</td><td>Thought leadership, hiring, B2B services</td></tr><tr><td>Blog / website</td><td>People searching on Google</td><td>Search traffic, credibility, detailed content</td></tr></tbody></table></div><h3>Digital Marketing Equipment and Tools</h3><div class=\"tblwrap\"><table><thead><tr><th>Type</th><th>Examples</th><th>Use</th></tr></thead><tbody><tr><td>Equipment</td><td>Laptop or desktop, smartphone or camera, tripod, LED light, condenser or lavalier microphone, headphones with microphone</td><td>Capture and edit photos, videos and audio</td></tr><tr><td>Design tools</td><td>Canva, Adobe Express, Photopea</td><td>Graphics, carousels, thumbnails</td></tr><tr><td>Video and photo editing tools</td><td>CapCut, DaVinci Resolve, Snapseed</td><td>Cut, caption, color and export videos</td></tr><tr><td>Word processing tools</td><td>Google Docs, Microsoft Word</td><td>Copy, scripts, blog drafts</td></tr><tr><td>Scheduling tools</td><td>Meta Business Suite, TikTok scheduler, YouTube Studio</td><td>Plan and auto-publish content</td></tr><tr><td>Time-tracking tools</td><td>Toggl, Clockify</td><td>Track production time per client</td></tr></tbody></table></div><div class=\"note\"><b>Remember:</b> Select equipment and tools <strong>based on the audience</strong>. A TikTok audience expects vertical, fast, phone-shot video; a LinkedIn audience expects clean graphics and well-written posts.</div>"
+  },
+  {
+   "h": "Part 3 — Keyword Research and the Content Calendar",
+   "html": "<p class=\"kicker\">Information Sheet 1.1-2</p><p>After this part you should be able to:</p><ol><li>research content keywords according to the purpose of the content;</li><li>use free keyword and trend tools;</li><li>formulate a digital marketing content calendar according to its purpose and goals; and</li><li>use scheduling tools and apply data and analytics in planning.</li></ol><h3>Content Keywords</h3><p>A <strong>content keyword</strong> is a word or phrase that describes what a piece of content is about and that the audience types when searching. Keywords are used in blog titles, captions, video titles and hashtags so that search engines and platform algorithms show the content to the right people.</p><div class=\"tblwrap\"><table><thead><tr><th>Keyword type</th><th>Example</th><th>Use</th></tr></thead><tbody><tr><td>Short-tail</td><td>\"coffee\"</td><td>Very competitive; too broad for a small business</td></tr><tr><td>Long-tail</td><td>\"iced coffee near San Juan La Union\"</td><td>Fewer searches but ready-to-buy audience - best for MSMEs</td></tr><tr><td>Local</td><td>\"cafe in Laoag City\"</td><td>Local SEO and Google Maps</td></tr><tr><td>Hashtag</td><td>#SanJuanLaUnion, #SurfCafe</td><td>Discovery on Instagram and TikTok</td></tr></tbody></table></div><h3>Free Keyword Research Tools</h3><ol><li><strong>Google search suggestions</strong> - type the topic and note the autocomplete phrases and \"People also ask\" questions.</li><li><strong>Google Trends</strong> - compare the popularity of terms over time and by region (e.g., \"surfing\" in La Union vs Ilocos Norte).</li><li><strong>Google Keyword Planner</strong> (free with a Google Ads account) - search volume ranges and related keywords.</li><li><strong>Platform search bars</strong> - TikTok, YouTube and Instagram search suggestions and trending hashtags.</li><li><strong>Competitor content</strong> - note the words competitors use in top-performing posts.</li></ol><p>Record the results in a keyword list: keyword, type, purpose (awareness, consideration, sales) and where it will be used.</p><h3>The Content Calendar</h3><p>A <strong>content calendar</strong> is the plan of what will be published, when, on which platform, and why. It keeps posting consistent, connects every post to a goal, and lets the client approve the content before production.</p><ul><li>Columns: date, platform, content type, topic or hook, keyword or hashtag, call to action, status (draft, approved, scheduled, published).</li><li>Mix content: about 70% value (educational, entertaining), 20% engagement (questions, user content), 10% direct offers.</li><li>Include local events and seasons: summer surf season, fiestas, holidays, payday weekends.</li><li>Plan a realistic frequency for the resources of the MSME (e.g., 4-5 posts per week).</li></ul><p>Content calendars are usually kept in a spreadsheet or a project tool. The example below is written in HTML so you can see the structure; the screenshot shows how it looks in a browser.</p><pre class=\"code\">&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;\nbody{font-family:Arial,sans-serif;margin:24px;color:#222}\nh2{margin:0 0 4px;color:#0033CC}p{margin:0 0 12px;color:#555;font-size:14px}\ntable{border-collapse:collapse;width:100%;font-size:13px}\nth{background:#D9E2F3;text-align:left;padding:8px;border:1px solid #9bb}\ntd{padding:8px;border:1px solid #ccd;vertical-align:top}\n.fb{color:#1877F2;font-weight:bold}\n.ig{color:#C13584;font-weight:bold}\n.tt{color:#111;font-weight:bold}\n.cta{background:#FFF2CC}\n&lt;/style&gt;&lt;/head&gt;&lt;body&gt;\n&lt;h2&gt;Content Calendar - Kape&#x27;t Alon Cafe (Week 1)&lt;/h2&gt;\n&lt;p&gt;Goal: reach 15,000 people and get 60 Messenger orders in 2 weeks | Keywords: iced\n  coffee La Union, surf cafe San Juan&lt;/p&gt;\n&lt;table&gt;\n  &lt;tr&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Platform&lt;/th&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Topic / hook&lt;/th&gt;&lt;th&gt;Keyword /\n    hashtag&lt;/th&gt;&lt;th&gt;Call to action&lt;/th&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td class=&quot;fb&quot;&gt;Facebook&lt;/td&gt;&lt;td&gt;Photo post&lt;/td&gt;&lt;td&gt;Meet our breakfast\n    set&lt;/td&gt;\n      &lt;td&gt;#SanJuanLaUnion&lt;/td&gt;&lt;td&gt;Message us to order&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td class=&quot;tt&quot;&gt;TikTok&lt;/td&gt;&lt;td&gt;Reel 20 s&lt;/td&gt;&lt;td&gt;&quot;3 surf spots + where\n    to get coffee&quot;&lt;/td&gt;\n      &lt;td&gt;surf cafe San Juan&lt;/td&gt;&lt;td&gt;Follow for more&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td class=&quot;ig&quot;&gt;Instagram&lt;/td&gt;&lt;td&gt;Carousel&lt;/td&gt;&lt;td&gt;How we make iced\n    latte&lt;/td&gt;\n      &lt;td&gt;#IcedCoffeeLU&lt;/td&gt;&lt;td&gt;Save this post&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;Blog&lt;/td&gt;&lt;td&gt;Article&lt;/td&gt;&lt;td&gt;Best breakfast spots near the\n    beach&lt;/td&gt;\n      &lt;td&gt;breakfast San Juan La Union&lt;/td&gt;&lt;td&gt;Read and visit&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr class=&quot;cta&quot;&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td class=&quot;fb&quot;&gt;Facebook&lt;/td&gt;&lt;td&gt;Boosted\n    post&lt;/td&gt;&lt;td&gt;Weekend promo 10% off&lt;/td&gt;\n      &lt;td&gt;#KapeTime&lt;/td&gt;&lt;td&gt;Show this post at the counter&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</pre><h3>Scheduling Tools</h3><ul><li><strong>Meta Business Suite</strong> - schedule Facebook and Instagram posts, Reels and stories; view insights.</li><li><strong>TikTok</strong> - schedule videos on the web version (TikTok Studio).</li><li><strong>YouTube Studio</strong> - schedule uploads and premieres.</li><li>Schedule at the times the audience is active; check the platform insights (\"when your followers are online\").</li></ul><h3>Data and Analytics in Planning</h3><p>Use last month's insights to plan: which content types had the highest engagement, which days and times worked, and which topics brought messages or orders. Plan more of what worked and test one new idea each week.</p><div class=\"note\"><b>Law:</b> Online sellers must follow the <strong>E-Commerce Act of 2000 (RA 8792)</strong>: electronic documents and transactions are valid, and misleading online offers can be penalized. Plan promos with clear terms (dates, conditions).</div>"
+  },
+  {
+   "h": "Part 4 — Visual Design for Social Media Graphics",
+   "html": "<p class=\"kicker\">Information Sheet 2.1-1</p><p>After this part you should be able to:</p><ol><li>apply the elements and principles of visual design;</li><li>create social media graphics and featured images in the correct sizes;</li><li>add media to draft content in accordance with the content plan and copyright law.</li></ol><h3>Elements of Visual Design</h3><div class=\"tblwrap\"><table><thead><tr><th>Element</th><th>Meaning</th><th>Tip for social media</th></tr></thead><tbody><tr><td>Color</td><td>Hue, value and saturation; brand colors</td><td>Use 2-3 brand colors; keep strong contrast between text and background</td></tr><tr><td>Typography</td><td>Fonts, sizes and weights</td><td>Use at most 2 fonts; headline large and bold, body simple</td></tr><tr><td>Image</td><td>Photos, illustrations, icons</td><td>One clear subject; good light; no stretched or blurry images</td></tr><tr><td>Shape and line</td><td>Boxes, circles, dividers</td><td>Group related information; guide the eye to the call to action</td></tr><tr><td>Space</td><td>Empty area around elements</td><td>White (negative) space makes the message readable</td></tr></tbody></table></div><h3>Principles of Design</h3><div class=\"tblwrap\"><table><thead><tr><th>Principle</th><th>What it does</th></tr></thead><tbody><tr><td>Hierarchy</td><td>The most important information (offer, headline) is seen first; details come after</td></tr><tr><td>Contrast</td><td>Differences in color, size and weight make key elements stand out</td></tr><tr><td>Alignment</td><td>Elements line up to a grid, giving a clean, professional look</td></tr><tr><td>Balance</td><td>Visual weight is distributed evenly (symmetrical or asymmetrical)</td></tr><tr><td>Repetition / consistency</td><td>The same colors, fonts and logo placement build brand recognition</td></tr><tr><td>Proximity</td><td>Related items are placed together (price next to product)</td></tr></tbody></table></div><p>Compare two graphics for the same promo. Both are built with HTML and CSS so you can study how the design decisions are made; the screenshots show the result.</p><pre class=\"code\">&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;\nbody {\n  margin:0;\n  width:540px;\n  height:540px;\n  background:#ff00cc;\n  font-family:&quot;Comic Sans MS&quot;,cursive;\n  overflow:hidden;\n}\n.a{color:#ffff00;font-size:22px;padding:18px 20px 0}\n.b{color:#00ffff;font-size:34px;padding:0 20px;font-family:Impact}\n.c{color:#0000ff;font-size:15px;padding:8px 20px;font-family:&quot;Times New Roman&quot;}\n.d{color:#00ff00;font-size:26px;padding:4px 20px}\n.e{color:#fff;font-size:12px;padding:4px 20px}\n&lt;/style&gt;&lt;/head&gt;&lt;body&gt;\n&lt;div class=&quot;a&quot;&gt;!!! BIG BIG SALE !!! WOW !!!&lt;/div&gt;&lt;div class=&quot;b&quot;&gt;KAPE&#x27;T ALON CAFE BEST\n  COFFEE IN THE WORLD&lt;/div&gt;\n&lt;div class=&quot;c&quot;&gt;We have iced latte, hot latte, americano, mocha, pandesal, cookies, cakes,\n  pasta, rice meals and many more\nplease visit us anytime we are open everyday call or text or message or visit&lt;/div&gt;\n&lt;div class=&quot;d&quot;&gt;10% OFF??? 20% OFF??? PROMO!!!&lt;/div&gt;&lt;div class=&quot;e&quot;&gt;terms and conditions\n  apply see page for details thank you&lt;/div&gt;\n&lt;/body&gt;&lt;/html&gt;</pre><pre class=\"code\">&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;\nbody {\n  margin:0;\n  width:540px;\n  height:540px;\n  font-family:Arial,sans-serif;\n  overflow:hidden;\n  position:relative;\n}\nbody{background:linear-gradient(160deg,#FFE3B3 0%,#F2A900 55%,#E8590C 100%)}\n.tag{position:absolute;top:32px;left:32px;background:#fff;color:#E8590C;font-weight:800}\n.tag{font-size:15px;padding:8px 16px;border-radius:30px;letter-spacing:1px}\nh1 {\n  position:absolute;\n  left:32px;\n  bottom:170px;\n  margin:0;\n  color:#fff;\n  font-size:56px;\n  line-height:1;\n  font-weight:900;\n}\n.price{position:absolute;left:32px;bottom:118px;color:#fff;font-size:26px;font-weight:700}\n.cta{position:absolute;right:32px;bottom:40px;background:#1F3A5F;color:#fff}\n.cta{font-size:16px;font-weight:700;padding:12px 20px;border-radius:12px}\n.logo{position:absolute;right:32px;top:30px;color:#1F3A5F;font-weight:800;font-size:15px}\n.cup{position:absolute;right:60px;top:80px;width:150px;height:150px;border-radius:50%;\n     border:14px solid rgba(255,255,255,.6)}\n&lt;/style&gt;&lt;/head&gt;&lt;body&gt;\n&lt;div class=&quot;tag&quot;&gt;WEEKEND PROMO&lt;/div&gt;&lt;div class=&quot;logo&quot;&gt;KAPE&#x27;T ALON&lt;/div&gt;&lt;div\n  class=&quot;cup&quot;&gt;&lt;/div&gt;\n&lt;h1&gt;Iced Latte&lt;br&gt;+ Pandesal&lt;/h1&gt;&lt;div class=&quot;price&quot;&gt;P149 &amp;nbsp;|&amp;nbsp; 10% off\n  Sat-Sun&lt;/div&gt;\n&lt;div class=&quot;cta&quot;&gt;Message us to order&lt;/div&gt;\n&lt;/body&gt;&lt;/html&gt;</pre><h3>Common Sizes</h3><div class=\"tblwrap\"><table><thead><tr><th>Content</th><th>Size (pixels)</th><th>Aspect ratio</th></tr></thead><tbody><tr><td>Feed post (Facebook, Instagram)</td><td>1080 x 1080 or 1080 x 1350</td><td>1:1 or 4:5</td></tr><tr><td>Story, Reel, TikTok, YouTube Shorts</td><td>1080 x 1920</td><td>9:16</td></tr><tr><td>YouTube thumbnail / blog featured image</td><td>1280 x 720</td><td>16:9</td></tr><tr><td>Facebook cover (page)</td><td>1640 x 624 (safe area in the center)</td><td>about 2.6:1</td></tr></tbody></table></div><h3>Adding Media Legally</h3><ul><li>Use <strong>your own photos and videos</strong>, or media licensed for commercial use (e.g., Canva Pro content, royalty-free libraries such as Pexels and Pixabay - read each license).</li><li>Never copy images from Google search or other pages without permission: this violates the <strong>Intellectual Property Code (RA 8293)</strong> as amended by <strong>RA 10372</strong>.</li><li>Get written consent before posting identifiable customers or staff (Data Privacy Act of 2012, RA 10173).</li><li>Keep a media log: file name, source, license, date - it proves the content is legal.</li></ul>"
+  },
+  {
+   "h": "Part 5 — Copywriting, Brand Voice and Proofreading",
+   "html": "<p class=\"kicker\">Information Sheet 2.1-2</p><p>After this part you should be able to:</p><ol><li>write persuasive copy using copywriting frameworks, brand voice and storytelling;</li><li>proofread copy according to the buyer's requirements; and</li><li>apply pertinent laws, platform policies and codes of conduct to digital marketing content.</li></ol><h3>Copywriting Frameworks</h3><div class=\"tblwrap\"><table><thead><tr><th>Framework</th><th>Steps</th><th>Example caption</th></tr></thead><tbody><tr><td>AIDA</td><td>Attention - Interest - Desire - Action</td><td>\"Tired after your dawn surf? (A) Our iced latte is brewed from Benguet beans (I). Pair it with warm pandesal for only P149 (D). Message us to reserve your set! (A)\"</td></tr><tr><td>PAS</td><td>Problem - Agitate - Solution</td><td>\"No time for breakfast before class? Skipping it makes you tired by 10 AM. Grab our 5-minute breakfast set on the way.\"</td></tr><tr><td>Before-After-Bridge</td><td>Situation now - better situation - how to get there</td><td>\"Before: warm canned coffee. After: a cold, creamy latte by the sea. The bridge: Kape't Alon, 50 steps from the beach.\"</td></tr></tbody></table></div><h3>Brand Voice and Storytelling</h3><ul><li><strong>Brand voice</strong> is the consistent personality of the brand's words: e.g., friendly, local and energetic (\"Tara, kape tayo!\"). Write it down in 3 adjectives with \"do\" and \"don't\" examples.</li><li><strong>Storytelling</strong>: a character (customer), a problem, and how the product helps. Real stories of local customers build trust.</li><li>Write for the platform: short and punchy on TikTok and Instagram; more detail on Facebook and the blog.</li></ul><h3>Proofreading Checklist</h3><p>The CS lists what must be checked before content is approved:</p><div class=\"tblwrap\"><table><thead><tr><th>Check</th><th>Question to ask</th></tr></thead><tbody><tr><td>Keywords</td><td>Are the planned keywords and hashtags used naturally?</td></tr><tr><td>Grammar and spelling</td><td>Is the English/Filipino correct? Are names and prices spelled right?</td></tr><tr><td>Structure</td><td>Does the copy start with a hook and end with one clear call to action?</td></tr><tr><td>Tone and brand voice</td><td>Does it sound like the brand?</td></tr><tr><td>Compliance</td><td>Does it follow laws, platform rules and ad restrictions? Are promo terms clear?</td></tr><tr><td>Trigger words</td><td>Are there words that platforms flag or that offend (e.g., exaggerated health claims, \"guaranteed income\")?</td></tr><tr><td>Relevance and accuracy</td><td>Is every fact, price, date and claim true and current?</td></tr></tbody></table></div><h3>Pertinent Policies, Regulations and Laws</h3><div class=\"tblwrap\"><table><thead><tr><th>Law / policy</th><th>What it means for content creators</th></tr></thead><tbody><tr><td>RA 8293 Intellectual Property Code, as amended by RA 10372</td><td>Do not use others' music, images, videos or text without a license; respect trademarks</td></tr><tr><td>RA 8792 E-Commerce Act of 2000</td><td>Online transactions and documents are valid; online offers must be honest</td></tr><tr><td>RA 10173 Data Privacy Act of 2012</td><td>Get consent before collecting or posting personal information; protect customer data</td></tr><tr><td>RA 10175 Cybercrime Prevention Act of 2012</td><td>Online libel, identity theft and illegal access are crimes - no false accusations or fake reviews</td></tr><tr><td>Anti-piracy rules</td><td>No pirated software, fonts, music or movies in content production</td></tr><tr><td>Platform community standards</td><td>Each platform bans certain content (hate, violence, misleading health claims); violations remove posts or pages</td></tr></tbody></table></div>"
+  },
+  {
+   "h": "Part 6 — Practice Clients",
+   "html": "<p>Use the MSME your trainer assigned to you. If you have none, pick one of these practice clients and use it for every activity of Days 2 to 5 (plan, graphics, video, blog and monitoring).</p><div class=\"tblwrap\"><table><thead><tr><th>Client</th><th>Products and prices</th><th>Current pages</th><th>What the owner wants</th></tr></thead><tbody><tr><td><strong>Inabel ni Lola</strong><br>Paoay, Ilocos Norte</td><td>Hand-woven inabel blankets (P1,800-3,500), table runners (P650) and face-mask pouches (P120); weavers are senior women of the barangay.</td><td>Facebook page with 900 followers; sells at the Paoay Church plaza on weekends.</td><td>Wants tourists and balikbayan buyers to order online before the Christmas season.</td></tr><tr><td><strong>Bagnet Express Batac</strong><br>Batac City, Ilocos Norte</td><td>Bagnet (P380/half kilo), Ilocos empanada (P60), pinakbet with bagnet (P150); pick-up and delivery within Batac and Laoag.</td><td>Facebook page with 2,400 followers; no Instagram or TikTok.</td><td>Wants more delivery orders from students and office workers in Laoag on weekdays.</td></tr><tr><td><strong>SurfSide Hostel</strong><br>San Juan, La Union</td><td>Dorm beds (P650/night), private rooms (P1,900), surf lessons with board (P800/hour); cafe on the ground floor.</td><td>Instagram with 3,100 followers; Facebook page rarely updated; listed on Google Maps.</td><td>Wants more weekday bookings from June to September (low season).</td></tr></tbody></table></div>"
+  }
+ ],
+ "sheets": [],
+ "activities": [
+  {
+   "id": "2.0",
+   "title": "Warm-up: Audience, Goals and Keywords",
+   "mode": "Individual",
+   "minutes": 15,
+   "html": "<p>Answer from Lesson Parts 2 and 3. Tap <strong>Check</strong> to see which answers are right, fix them, then tap <strong>Submit</strong>.</p>",
+   "points": 10,
+   "parts": [
+    {
+     "id": "q1",
+     "type": "choice",
+     "points": 2,
+     "prompt": "The post \"Weekend promo: 10% off. Message us to reserve!\" is written for which audience?",
+     "options": [
+      [
+       "cold",
+       "Cold"
+      ],
+      [
+       "warm",
+       "Warm"
+      ],
+      [
+       "hot",
+       "Hot"
+      ],
+      [
+       "active",
+       "Active customers"
+      ]
+     ],
+     "hash": "0037ba25c8a0d458984d"
+    },
+    {
+     "id": "q2",
+     "type": "choice",
+     "points": 2,
+     "prompt": "A Reel \"3 surf spots near San Juan + where to get coffee\" is best for which audience?",
+     "options": [
+      [
+       "cold",
+       "Cold"
+      ],
+      [
+       "warm",
+       "Warm"
+      ],
+      [
+       "hot",
+       "Hot"
+      ],
+      [
+       "active",
+       "Active customers"
+      ]
+     ],
+     "hash": "5ca7d1206ccd1b135c17"
+    },
+    {
+     "id": "q3",
+     "type": "choice",
+     "points": 2,
+     "prompt": "Which one is a SMART goal?",
+     "options": [
+      [
+       "a",
+       "Be famous online"
+      ],
+      [
+       "b",
+       "Post more on Facebook"
+      ],
+      [
+       "c",
+       "Get 40 Messenger orders from Laoag in 2 weeks"
+      ],
+      [
+       "d",
+       "Have the best page in Ilocos"
+      ]
+     ],
+     "hash": "52297e363013af1b6436"
+    },
+    {
+     "id": "q4",
+     "type": "choice",
+     "points": 2,
+     "prompt": "Which keyword is best for a small bagnet shop in Batac?",
+     "options": [
+      [
+       "a",
+       "\"food\""
+      ],
+      [
+       "b",
+       "\"bagnet delivery Batac Laoag\""
+      ],
+      [
+       "c",
+       "\"pork\""
+      ],
+      [
+       "d",
+       "\"Philippines\""
+      ]
+     ],
+     "hash": "229d37ba5bb5ab87a8b2"
+    },
+    {
+     "id": "q5",
+     "type": "multi",
+     "points": 2,
+     "prompt": "Tick ALL the columns a content calendar should have.",
+     "options": [
+      [
+       "date",
+       "Date"
+      ],
+      [
+       "platform",
+       "Platform"
+      ],
+      [
+       "hook",
+       "Topic / hook"
+      ],
+      [
+       "cta",
+       "Call to action"
+      ],
+      [
+       "salary",
+       "Owner's salary"
+      ],
+      [
+       "status",
+       "Status"
+      ]
+     ],
+     "hash": "36bc79768121b3991988"
+    }
+   ]
+  },
+  {
+   "id": "2.1",
+   "title": "Content Strategy for an MSME",
+   "mode": "Individual",
+   "minutes": 90,
+   "html": "<p>Task Sheet 1.1-1, steps 1 to 4. Open the <strong>Content Planner</strong> and fill in each card for your MSME (see Lesson Part 6 if you need a practice client).</p><ol><li>Interview the MSME owner (or read the client brief): products, prices, customers, current pages and goals.</li><li>Write the vision, purpose and two SMART goals of the content.</li><li>Describe the audience in three temperatures (cold, warm, hot) with one key message each.</li><li>Select two or three platforms and justify each with the audience; list the equipment and tools you will use.</li></ol><p class=\"small\">The checklist under Answers turns green as you complete each card. Your trainer, acting as the client, grades the quality with the Performance Criteria Checklist.</p>",
+   "points": 30,
+   "parts": [
+    {
+     "id": "plan",
+     "type": "studio",
+     "tool": "planner",
+     "view": "strategy",
+     "points": 15,
+     "prompt": "Content strategy (Content Planner)",
+     "checks": [
+      {
+       "k": "text",
+       "path": "client.name",
+       "min": 3,
+       "label": "Client brief: business name"
+      },
+      {
+       "k": "text",
+       "path": "client.products",
+       "min": 15,
+       "label": "Client brief: products / services and prices"
+      },
+      {
+       "k": "text",
+       "path": "vision",
+       "min": 20,
+       "label": "Vision written"
+      },
+      {
+       "k": "text",
+       "path": "purpose",
+       "min": 20,
+       "label": "Purpose of the content written"
+      },
+      {
+       "k": "match",
+       "path": "goals",
+       "field": "text",
+       "re": "\\d",
+       "min": 2,
+       "label": "Two SMART goals, each with a number"
+      },
+      {
+       "k": "fields",
+       "path": "audience.cold",
+       "fields": [
+        "who",
+        "msg"
+       ],
+       "min": 5,
+       "label": "Cold audience: who they are and the message"
+      },
+      {
+       "k": "fields",
+       "path": "audience.warm",
+       "fields": [
+        "who",
+        "msg"
+       ],
+       "min": 5,
+       "label": "Warm audience: who they are and the message"
+      },
+      {
+       "k": "fields",
+       "path": "audience.hot",
+       "fields": [
+        "who",
+        "msg"
+       ],
+       "min": 5,
+       "label": "Hot audience: who they are and the message"
+      },
+      {
+       "k": "distinct",
+       "path": "platforms",
+       "field": "name",
+       "fields": [
+        "name",
+        "why"
+       ],
+       "min": 2,
+       "label": "Two or more platforms, each with a reason"
+      },
+      {
+       "k": "items",
+       "path": "tools",
+       "fields": [
+        "type",
+        "name"
+       ],
+       "min": 3,
+       "label": "Three or more equipment and tools listed"
+      }
+     ]
+    },
+    {
+     "id": "pcc",
+     "type": "rubric",
+     "manual": true,
+     "points": 15,
+     "prompt": "Quality of the strategy (trainer)",
+     "criteria": [
+      "Did you communicate the purpose, goals and vision according to the digital marketing channels?",
+      "Did you identify the audience based on the messaging?",
+      "Did you select the platforms based on the identified audience?",
+      "Did you select the equipment and tools based on the identified audience?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "title": "Keyword Research and Two-Week Content Calendar",
+   "mode": "Individual",
+   "minutes": 120,
+   "html": "<p>Task Sheet 1.1-1, steps 5 to 8. In the <strong>Content Planner</strong>, research the keywords, then plan the calendar. Your goals and platforms from Activity 2.1 are shown at the top.</p><ol><li>Research at least 10 keywords and hashtags (long-tail and local) using Google search, Google Trends and platform search.</li><li>Build a two-week content calendar (at least 8 posts) with date, platform, type, hook, keyword, call to action and status.</li><li>Check the content mix (value, engagement, offers) and the promo terms (RA 8792).</li><li>Present the plan to the trainer (acting as the client) for approval; revise if needed.</li></ol><p>The format of a content calendar:</p><iframe class=\"example\" sandbox=\"\" loading=\"lazy\" title=\"Example\" srcdoc=\"\n    &lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;\n    body{font-family:Arial,sans-serif;margin:24px;color:#222}\n    h2{margin:0 0 4px;color:#0033CC}p{margin:0 0 12px;color:#555;font-size:14px}\n    table{border-collapse:collapse;width:100%;font-size:13px}\n    th{background:#D9E2F3;text-align:left;padding:8px;border:1px solid #9bb}\n    td{padding:8px;border:1px solid #ccd;vertical-align:top}\n    .fb{color:#1877F2;font-weight:bold}.ig{color:#C13584;font-weight:bold}.tt{color:#111;font-weight:bold}\n    .cta{background:#FFF2CC}\n    &lt;/style&gt;&lt;/head&gt;&lt;body&gt;\n    &lt;h2&gt;Content Calendar - Kape&#x27;t Alon Cafe (Week 1)&lt;/h2&gt;\n    &lt;p&gt;Goal: reach 15,000 people and get 60 Messenger orders in 2 weeks | Keywords: iced coffee La Union, surf cafe San Juan&lt;/p&gt;\n    &lt;table&gt;\n      &lt;tr&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Platform&lt;/th&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Topic / hook&lt;/th&gt;&lt;th&gt;Keyword / hashtag&lt;/th&gt;&lt;th&gt;Call to action&lt;/th&gt;&lt;/tr&gt;\n      &lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td class=&quot;fb&quot;&gt;Facebook&lt;/td&gt;&lt;td&gt;Photo post&lt;/td&gt;&lt;td&gt;Meet our breakfast set&lt;/td&gt;\n          &lt;td&gt;#SanJuanLaUnion&lt;/td&gt;&lt;td&gt;Message us to order&lt;/td&gt;&lt;/tr&gt;\n      &lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td class=&quot;tt&quot;&gt;TikTok&lt;/td&gt;&lt;td&gt;Reel 20 s&lt;/td&gt;&lt;td&gt;&quot;3 surf spots + where to get coffee&quot;&lt;/td&gt;\n          &lt;td&gt;surf cafe San Juan&lt;/td&gt;&lt;td&gt;Follow for more&lt;/td&gt;&lt;/tr&gt;\n      &lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td class=&quot;ig&quot;&gt;Instagram&lt;/td&gt;&lt;td&gt;Carousel&lt;/td&gt;&lt;td&gt;How we make iced latte&lt;/td&gt;\n          &lt;td&gt;#IcedCoffeeLU&lt;/td&gt;&lt;td&gt;Save this post&lt;/td&gt;&lt;/tr&gt;\n      &lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;Blog&lt;/td&gt;&lt;td&gt;Article&lt;/td&gt;&lt;td&gt;Best breakfast spots near the beach&lt;/td&gt;\n          &lt;td&gt;breakfast San Juan La Union&lt;/td&gt;&lt;td&gt;Read and visit&lt;/td&gt;&lt;/tr&gt;\n      &lt;tr class=&quot;cta&quot;&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td class=&quot;fb&quot;&gt;Facebook&lt;/td&gt;&lt;td&gt;Boosted post&lt;/td&gt;&lt;td&gt;Weekend promo 10% off&lt;/td&gt;\n          &lt;td&gt;#KapeTime&lt;/td&gt;&lt;td&gt;Show this post at the counter&lt;/td&gt;&lt;/tr&gt;\n    &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;\n    \"></iframe>",
+   "points": 30,
+   "parts": [
+    {
+     "id": "cal",
+     "type": "studio",
+     "tool": "planner",
+     "view": "calendar",
+     "points": 15,
+     "prompt": "Keyword list and content calendar (Content Planner)",
+     "checks": [
+      {
+       "k": "items",
+       "path": "keywords",
+       "fields": [
+        "kw",
+        "type",
+        "purpose"
+       ],
+       "min": 10,
+       "label": "10 or more keywords, each with a type and a purpose"
+      },
+      {
+       "k": "match",
+       "path": "keywords",
+       "field": "type",
+       "re": "long|local",
+       "min": 4,
+       "label": "At least 4 long-tail or local keywords"
+      },
+      {
+       "k": "match",
+       "path": "keywords",
+       "field": "type",
+       "re": "hashtag",
+       "min": 2,
+       "label": "At least 2 hashtags"
+      },
+      {
+       "k": "items",
+       "path": "calendar",
+       "fields": [
+        "date",
+        "platform",
+        "type",
+        "hook",
+        "kw",
+        "cta",
+        "mix"
+       ],
+       "min": 8,
+       "label": "8 or more complete posts (date, platform, type, hook, keyword, CTA, mix)"
+      },
+      {
+       "k": "distinct",
+       "path": "calendar",
+       "field": "platform",
+       "min": 2,
+       "label": "Posts on two or more platforms"
+      },
+      {
+       "k": "share",
+       "path": "calendar",
+       "field": "mix",
+       "value": "value",
+       "min": 0.5,
+       "label": "At least half of the posts give value (teach / entertain)"
+      },
+      {
+       "k": "share",
+       "path": "calendar",
+       "field": "mix",
+       "value": "offer",
+       "max": 0.3,
+       "label": "Offers are 30% of the posts or fewer"
+      },
+      {
+       "k": "items",
+       "path": "calendar",
+       "fields": [
+        "status"
+       ],
+       "min": 8,
+       "label": "Every post has a status"
+      }
+     ]
+    },
+    {
+     "id": "pcc",
+     "type": "rubric",
+     "manual": true,
+     "points": 15,
+     "prompt": "Quality of the keywords and calendar, and the presentation to the client (trainer)",
+     "criteria": [
+      "Did you research content keywords according to the purpose?",
+      "Did you formulate a content calendar according to the purpose and goals?",
+      "Did you present the plan to the client (trainer) and revise it as asked?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "title": "Social Media Graphics and Proofread Copy",
+   "mode": "Individual",
+   "minutes": 150,
+   "html": "<p>Task Sheet 2.1-1. Design the three graphics in Canva (Create a design › Custom size), download them as PNG or JPG, then upload each one to its slot in the <strong>Post Composer</strong>. The preview shows how the post will look on the platform.</p><ol><li>Photograph the product with your smartphone or the DSLR camera, LED light and backdrop (at least 5 photos); record them in the media log.</li><li>Design three graphics following the content calendar: a 1080 x 1080 feed post, a 1080 x 1350 promo and a 1080 x 1920 story.</li><li>Apply hierarchy, contrast, alignment and brand consistency; add the logo and one clear call to action.</li><li>Write the caption of each graphic using AIDA or PAS in the brand voice; add 3-5 hashtags.</li><li>Proofread each caption with the checklist of Information Sheet 2.1-2 and fix all issues.</li><li>Check the media log: every image is your own or licensed; consent obtained for identifiable persons.</li><li>Export the graphics (PNG/JPG) and save them with the captions in your portfolio folder.</li></ol><p>Compare a poor and a good graphic (Lesson Part 4):</p><div class=\"exrow\"><iframe class=\"example\" sandbox=\"\" loading=\"lazy\" title=\"Example\" srcdoc=\"\n    &lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;\n    body{margin:0;width:540px;height:540px;background:#ff00cc;font-family:&quot;Comic Sans MS&quot;,cursive;overflow:hidden}\n    .a{color:#ffff00;font-size:22px;padding:18px 20px 0}.b{color:#00ffff;font-size:34px;padding:0 20px;font-family:Impact}\n    .c{color:#0000ff;font-size:15px;padding:8px 20px;font-family:&quot;Times New Roman&quot;}.d{color:#00ff00;font-size:26px;padding:4px 20px}\n    .e{color:#fff;font-size:12px;padding:4px 20px}\n    &lt;/style&gt;&lt;/head&gt;&lt;body&gt;\n    &lt;div class=&quot;a&quot;&gt;!!! BIG BIG SALE !!! WOW !!!&lt;/div&gt;&lt;div class=&quot;b&quot;&gt;KAPE&#x27;T ALON CAFE BEST COFFEE IN THE WORLD&lt;/div&gt;\n    &lt;div class=&quot;c&quot;&gt;We have iced latte, hot latte, americano, mocha, pandesal, cookies, cakes, pasta, rice meals and many more\n    please visit us anytime we are open everyday call or text or message or visit&lt;/div&gt;\n    &lt;div class=&quot;d&quot;&gt;10% OFF??? 20% OFF??? PROMO!!!&lt;/div&gt;&lt;div class=&quot;e&quot;&gt;terms and conditions apply see page for details thank you&lt;/div&gt;\n    &lt;/body&gt;&lt;/html&gt;\n    \"></iframe><iframe class=\"example\" sandbox=\"\" loading=\"lazy\" title=\"Example\" srcdoc=\"\n    &lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;\n    body{margin:0;width:540px;height:540px;font-family:Arial,sans-serif;overflow:hidden;position:relative}\n    body{background:linear-gradient(160deg,#FFE3B3 0%,#F2A900 55%,#E8590C 100%)}\n    .tag{position:absolute;top:32px;left:32px;background:#fff;color:#E8590C;font-weight:800}\n    .tag{font-size:15px;padding:8px 16px;border-radius:30px;letter-spacing:1px}\n    h1{position:absolute;left:32px;bottom:170px;margin:0;color:#fff;font-size:56px;line-height:1;font-weight:900}\n    .price{position:absolute;left:32px;bottom:118px;color:#fff;font-size:26px;font-weight:700}\n    .cta{position:absolute;right:32px;bottom:40px;background:#1F3A5F;color:#fff}\n    .cta{font-size:16px;font-weight:700;padding:12px 20px;border-radius:12px}\n    .logo{position:absolute;right:32px;top:30px;color:#1F3A5F;font-weight:800;font-size:15px}\n    .cup{position:absolute;right:60px;top:80px;width:150px;height:150px;border-radius:50%;\n         border:14px solid rgba(255,255,255,.6)}\n    &lt;/style&gt;&lt;/head&gt;&lt;body&gt;\n    &lt;div class=&quot;tag&quot;&gt;WEEKEND PROMO&lt;/div&gt;&lt;div class=&quot;logo&quot;&gt;KAPE&#x27;T ALON&lt;/div&gt;&lt;div class=&quot;cup&quot;&gt;&lt;/div&gt;\n    &lt;h1&gt;Iced Latte&lt;br&gt;+ Pandesal&lt;/h1&gt;&lt;div class=&quot;price&quot;&gt;P149 &amp;nbsp;|&amp;nbsp; 10% off Sat-Sun&lt;/div&gt;\n    &lt;div class=&quot;cta&quot;&gt;Message us to order&lt;/div&gt;\n    &lt;/body&gt;&lt;/html&gt;\n    \"></iframe></div>",
+   "points": 40,
+   "parts": [
+    {
+     "id": "posts",
+     "type": "studio",
+     "tool": "posts",
+     "slots": [
+      "feed",
+      "promo",
+      "story"
+     ],
+     "points": 20,
+     "prompt": "Three graphics with captions (Post Composer)",
+     "checks": [
+      {
+       "k": "ratio",
+       "path": "items.0.img",
+       "w": 1080,
+       "h": 1080,
+       "minW": 1080,
+       "label": "Post 1 graphic is 1080 × 1080 (1:1)"
+      },
+      {
+       "k": "ratio",
+       "path": "items.1.img",
+       "w": 1080,
+       "h": 1350,
+       "minW": 1080,
+       "label": "Post 2 graphic is 1080 × 1350 (4:5)"
+      },
+      {
+       "k": "ratio",
+       "path": "items.2.img",
+       "w": 1080,
+       "h": 1920,
+       "minW": 1080,
+       "label": "Post 3 graphic is 1080 × 1920 (9:16)"
+      },
+      {
+       "k": "text",
+       "path": "items.*.platform",
+       "label": "Every post has a platform"
+      },
+      {
+       "k": "len",
+       "path": "items.*.caption",
+       "min": 80,
+       "max": 2200,
+       "label": "Every caption has 80 to 2,200 characters"
+      },
+      {
+       "k": "hashtags",
+       "path": "items.*.caption",
+       "min": 3,
+       "max": 5,
+       "label": "Every caption has 3 to 5 hashtags"
+      },
+      {
+       "k": "text",
+       "path": "items.*.cta",
+       "min": 3,
+       "label": "Every post has one call to action"
+      },
+      {
+       "k": "ticked",
+       "path": "items.*.proof",
+       "keys": [
+        "kw",
+        "grammar",
+        "structure",
+        "tone",
+        "compliance",
+        "trigger",
+        "accuracy"
+       ],
+       "label": "Every caption proofread (all 7 checks)"
+      },
+      {
+       "k": "items",
+       "path": "log",
+       "fields": [
+        "file",
+        "source",
+        "license",
+        "consent"
+       ],
+       "min": 3,
+       "label": "Media log: 3 or more files with source, license and consent"
+      },
+      {
+       "k": "share",
+       "path": "log",
+       "field": "consent",
+       "value": "Missing",
+       "max": 0,
+       "label": "No media with missing consent"
+      }
+     ]
+    },
+    {
+     "id": "pcc",
+     "type": "rubric",
+     "manual": true,
+     "points": 20,
+     "prompt": "Quality of the graphics and copy (trainer)",
+     "criteria": [
+      "Did you create the graphics according to the purpose and goals of the content plan?",
+      "Did you add media as planned, using only own or licensed images with consent where needed?",
+      "Did you apply the elements and principles of design and brand consistency?",
+      "Did you write persuasive copy using a copywriting framework and the brand voice?",
+      "Did you proofread the copy for keywords, grammar, tone, compliance and accuracy?",
+      "Did you follow the pertinent laws and platform policies?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.4",
+   "title": "Spot the Problems: Proofread a Poster",
+   "mode": "Pair",
+   "minutes": 20,
+   "html": "<p>With a partner, study this graphic and its caption, made by a new content creator for Kape't Alon Cafe.</p><iframe class=\"example\" sandbox=\"\" loading=\"lazy\" title=\"Example\" srcdoc=\"\n    &lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;\n    body{margin:0;width:540px;height:540px;background:#ff00cc;font-family:&quot;Comic Sans MS&quot;,cursive;overflow:hidden}\n    .a{color:#ffff00;font-size:22px;padding:18px 20px 0}.b{color:#00ffff;font-size:34px;padding:0 20px;font-family:Impact}\n    .c{color:#0000ff;font-size:15px;padding:8px 20px;font-family:&quot;Times New Roman&quot;}.d{color:#00ff00;font-size:26px;padding:4px 20px}\n    .e{color:#fff;font-size:12px;padding:4px 20px}\n    &lt;/style&gt;&lt;/head&gt;&lt;body&gt;\n    &lt;div class=&quot;a&quot;&gt;!!! BIG BIG SALE !!! WOW !!!&lt;/div&gt;&lt;div class=&quot;b&quot;&gt;KAPE&#x27;T ALON CAFE BEST COFFEE IN THE WORLD&lt;/div&gt;\n    &lt;div class=&quot;c&quot;&gt;We have iced latte, hot latte, americano, mocha, pandesal, cookies, cakes, pasta, rice meals and many more\n    please visit us anytime we are open everyday call or text or message or visit&lt;/div&gt;\n    &lt;div class=&quot;d&quot;&gt;10% OFF??? 20% OFF??? PROMO!!!&lt;/div&gt;&lt;div class=&quot;e&quot;&gt;terms and conditions apply see page for details thank you&lt;/div&gt;\n    &lt;/body&gt;&lt;/html&gt;\n    \"></iframe><blockquote>BEST COFFEE IN THE WORLD!!! 100% guaranteed you will never drink other coffee again. Promo promo promo 10% off??? 20% off??? Visit, call, text or message us anytime. Photo from Google. #coffee #kape #food #love #instagood #photooftheday #happy #yummy #fun #travel #philippines #launion</blockquote>",
+   "points": 10,
+   "parts": [
+    {
+     "id": "issues",
+     "type": "multi",
+     "points": 4,
+     "prompt": "Tick ALL the problems you find.",
+     "options": [
+      [
+       "fonts",
+       "Too many fonts and clashing colors (no hierarchy)"
+      ],
+      [
+       "cta",
+       "No single, clear call to action"
+      ],
+      [
+       "terms",
+       "Promo terms are unclear (10% or 20%? which dates?)"
+      ],
+      [
+       "claim",
+       "Exaggerated claim (\"best in the world\", \"100% guaranteed\")"
+      ],
+      [
+       "tags",
+       "Too many unrelated hashtags"
+      ],
+      [
+       "photo",
+       "Image copied from Google without a license"
+      ],
+      [
+       "size",
+       "The caption is too short"
+      ]
+     ],
+     "hash": "895b44ebd50c564fb84f"
+    },
+    {
+     "id": "law",
+     "type": "choice",
+     "points": 2,
+     "prompt": "Using the photo copied from Google without permission violates:",
+     "options": [
+      [
+       "a",
+       "RA 10173 Data Privacy Act"
+      ],
+      [
+       "b",
+       "RA 8293 Intellectual Property Code (as amended by RA 10372)"
+      ],
+      [
+       "c",
+       "RA 8792 E-Commerce Act"
+      ],
+      [
+       "d",
+       "No law; photos online are free"
+      ]
+     ],
+     "hash": "dfe23210471602764660"
+    },
+    {
+     "id": "fix",
+     "type": "text",
+     "manual": true,
+     "points": 4,
+     "rows": 5,
+     "prompt": "Rewrite the caption using AIDA: one offer with clear terms, one call to action, 3 to 5 relevant hashtags."
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "title": "Self-Check Quiz: Planning, Graphics and Copy",
+  "pass": 0.8,
+  "items": [
+   {
+    "n": 1,
+    "type": "choice",
+    "q": "Which of the 4 Ps answers \"How do customers learn about the product?\"",
+    "options": [
+     "Place",
+     "Price",
+     "Promotion",
+     "Product"
+    ],
+    "hash": "84a4ae5369f9412be7c3"
+   },
+   {
+    "n": 2,
+    "type": "choice",
+    "q": "\"Reach 15,000 people and get 60 orders in 2 weeks\" is an example of a:",
+    "options": [
+     "Channel",
+     "Hashtag",
+     "SMART goal",
+     "Vision"
+    ],
+    "hash": "282637c606a5b6e4615d"
+   },
+   {
+    "n": 3,
+    "type": "choice",
+    "q": "Which audience is ready to buy and responds best to an offer?",
+    "options": [
+     "Hot",
+     "Cold",
+     "Warm",
+     "Unknown"
+    ],
+    "hash": "a465d8c91ef6b845fc29"
+   },
+   {
+    "n": 4,
+    "type": "choice",
+    "q": "Which channel is best for people searching on Google for detailed information?",
+    "options": [
+     "Live video",
+     "Blog",
+     "Stories",
+     "SMS"
+    ],
+    "hash": "a3053b1e24c4bc1b3da0"
+   },
+   {
+    "n": 5,
+    "type": "choice",
+    "q": "Which tool schedules posts for Facebook and Instagram?",
+    "options": [
+     "Toggl",
+     "Meta Business Suite",
+     "Snapseed",
+     "Photopea"
+    ],
+    "hash": "796595af601af409dd7d"
+   },
+   {
+    "n": 6,
+    "type": "choice",
+    "q": "True or false: The same message works for cold and hot audiences.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "59d5616f27011643359f"
+   },
+   {
+    "n": 7,
+    "type": "choice",
+    "q": "True or false: Equipment and tools should be selected based on the identified audience.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "02fba05f9ad26b7d972c"
+   },
+   {
+    "n": 8,
+    "type": "choice",
+    "q": "Which keyword is best for a small cafe that wants ready-to-buy customers?",
+    "options": [
+     "\"food\"",
+     "\"drinks\"",
+     "\"coffee\"",
+     "\"iced coffee near San Juan La Union\""
+    ],
+    "hash": "5534e16c9f0e702a2f14"
+   },
+   {
+    "n": 9,
+    "type": "choice",
+    "q": "Which free tool compares the popularity of search terms over time and by region?",
+    "options": [
+     "Google Trends",
+     "CapCut",
+     "Toggl",
+     "Canva"
+    ],
+    "hash": "b2280893a189fc15f7dc"
+   },
+   {
+    "n": 10,
+    "type": "choice",
+    "q": "In the 70-20-10 content mix, 10% of the content should be:",
+    "options": [
+     "Engagement",
+     "Memes",
+     "Educational",
+     "Direct offers"
+    ],
+    "hash": "81b4b11278e315fc8eab"
+   },
+   {
+    "n": 11,
+    "type": "choice",
+    "q": "Which column tells whether a post is draft, approved, scheduled or published?",
+    "options": [
+     "Hook",
+     "Keyword",
+     "Status",
+     "Platform"
+    ],
+    "hash": "5bf3d8d14128a70afdba"
+   },
+   {
+    "n": 12,
+    "type": "choice",
+    "q": "True or false: A content calendar lets the client approve the content before it is produced.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "af6722ebc226514eac88"
+   },
+   {
+    "n": 13,
+    "type": "choice",
+    "q": "True or false: Local events and seasons should not be included in a content calendar.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "9e768b6f957660e09aed"
+   },
+   {
+    "n": 14,
+    "type": "choice",
+    "q": "Which principle makes the offer the first thing a viewer notices?",
+    "options": [
+     "Hierarchy",
+     "Balance",
+     "Proximity",
+     "Repetition"
+    ],
+    "hash": "f076895306b6b35e212a"
+   },
+   {
+    "n": 15,
+    "type": "choice",
+    "q": "What size is recommended for a Reel or TikTok video?",
+    "options": [
+     "1080 x 1920",
+     "1280 x 720",
+     "1080 x 1080",
+     "1640 x 624"
+    ],
+    "hash": "acb474bfe3b8a38e1d8e"
+   },
+   {
+    "n": 16,
+    "type": "choice",
+    "q": "How many fonts should a social media graphic normally use?",
+    "options": [
+     "At most 2",
+     "At least 5",
+     "One per word",
+     "As many as possible"
+    ],
+    "hash": "5bdf25fbe7932c86219a"
+   },
+   {
+    "n": 17,
+    "type": "choice",
+    "q": "Which images may be used in a client's paid campaign?",
+    "options": [
+     "Images licensed for commercial use or your own photos",
+     "Competitors' photos",
+     "Screenshots of other pages",
+     "Any image found on Google"
+    ],
+    "hash": "b06cfe68430e3bc332b5"
+   },
+   {
+    "n": 18,
+    "type": "choice",
+    "q": "True or false: Negative (white) space makes a graphic harder to read.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "ff28afe2cdfd5c0355e4"
+   },
+   {
+    "n": 19,
+    "type": "choice",
+    "q": "True or false: Posting a photo of an identifiable customer requires the customer's consent.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "b2faa14ef8be620c0421"
+   },
+   {
+    "n": 20,
+    "type": "choice",
+    "q": "In the AIDA framework, which step asks the reader to do something?",
+    "options": [
+     "Attention",
+     "Desire",
+     "Interest",
+     "Action"
+    ],
+    "hash": "04ac2d0b26e5c4a14a79"
+   },
+   {
+    "n": 21,
+    "type": "choice",
+    "q": "PAS stands for:",
+    "options": [
+     "Plan-Act-See",
+     "Price-Ad-Sale",
+     "Post-Ask-Share",
+     "Problem-Agitate-Solution"
+    ],
+    "hash": "be6b44b400d131d78894"
+   },
+   {
+    "n": 22,
+    "type": "choice",
+    "q": "Which proofreading check asks whether prices and dates are true and current?",
+    "options": [
+     "Accuracy",
+     "Structure",
+     "Tone",
+     "Keywords"
+    ],
+    "hash": "43d03ca14afdc3b754de"
+   },
+   {
+    "n": 23,
+    "type": "choice",
+    "q": "Posting fake negative reviews of a competitor may be punished under:",
+    "options": [
+     "No law",
+     "RA 7394 only",
+     "RA 9003",
+     "RA 10175 (Cybercrime Prevention Act)"
+    ],
+    "hash": "73002dd34ec650774fd7"
+   },
+   {
+    "n": 24,
+    "type": "choice",
+    "q": "True or false: Brand voice should change completely in every post.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "199cd47d092c8f6c9a7d"
+   },
+   {
+    "n": 25,
+    "type": "choice",
+    "q": "True or false: Pirated fonts and software should not be used to produce client content.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "1afd68807fac6ef65f31"
+   }
+  ]
+ },
+ "labTips": [
+  "Your work in the Content Planner and Post Composer is saved on this device as you type.",
+  "Design graphics in Canva at the exact size, then upload them: the lab reads the size for you.",
+  "Tap Check to see what is still missing; tap Submit when done."
+ ],
+ "generated": "2026-11-12T05:22:57.000Z",
+ "files": []
+}
