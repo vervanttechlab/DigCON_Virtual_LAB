@@ -2,9 +2,22 @@
   "_how": "Newest first. When sw.js VERSION changes, add an entry with the SAME v. 'student' items are shown to students in the update window, 'trainer' items on the trainer board.",
   "versions": [
     {
+      "v": "d1-lab-v2",
+      "student": [
+        "The lab is connected to the class server: sign in with the class code, your Student ID and PIN."
+      ],
+      "trainer": [
+        "Connected to the class Google Sheet."
+      ]
+    },
+    {
       "v": "d1-lab-v1",
-      "student": ["The GESTAAC D1 Virtual Lab: Day 2 lesson, Content Planner, Post Composer with live platform previews, activities and the self-check quiz."],
-      "trainer": ["Studio activities show the student's plan, calendar and post previews with the completeness checks; grade quality with the Performance Criteria Checklist."]
+      "student": [
+        "The GESTAAC D1 Virtual Lab: Day 2 lesson, Content Planner, Post Composer with live platform previews, activities and the self-check quiz."
+      ],
+      "trainer": [
+        "Studio activities show the student's plan, calendar and post previews with the completeness checks; grade quality with the Performance Criteria Checklist."
+      ]
     }
   ]
 }
