@@ -1,0 +1,801 @@
+{
+ "day": 3,
+ "tag": "day03",
+ "title": "Short-Form Video, SEO Blog and Campaign Execution",
+ "unit": "Create content · LO2 Produce digital marketing content",
+ "video": "",
+ "lesson": [
+  {
+   "h": "Learning Outcomes",
+   "html": "<p>Day 3 is face-to-face in the computer laboratory and the content-production corner. By the end of the day you should be able to:</p><ol><li>plan a 15- to 30-second vertical video in a storyboard;</li><li>record and edit it following industry practices and copyright rules;</li><li>write, format and optimize a blog post for search engines; and</li><li>execute the campaign: schedule, distribute, promote and A/B test the content.</li></ol><p>The activities follow <strong>Task Sheets 2.1-2, 2.1-3 and 2.1-4</strong>. You work in the lab's <strong>Storyboard</strong>, <strong>Blog Editor</strong> and <strong>Campaign Scheduler</strong>. Keep using the same client as on Day 2: its name, keywords and calendar are brought over automatically.</p>"
+  },
+  {
+   "h": "Part 2 — Short-Form Video and the Storyboard",
+   "html": "<p class=\"kicker\">Information Sheet 2.1-3</p><p>After this part you should be able to:</p><ol><li>plan a short-form video with a hook, message and call to action;</li><li>record video using basic videography and on-camera presentation techniques; and</li><li>edit recorded content for TikTok, Reels and YouTube Shorts following industry practices.</li></ol><h3>Short-Form Video Structure (15-30 seconds)</h3><div class=\"tblwrap\"><table><thead><tr><th>Part</th><th>Time</th><th>Purpose</th><th>Example (cafe promo)</th></tr></thead><tbody><tr><td>Hook</td><td>0-3 s</td><td>Stop the scroll</td><td>Close-up of ice dropping into coffee + text \"Best post-surf breakfast in SJ?\"</td></tr><tr><td>Value / story</td><td>3-20 s</td><td>Show the product or teach something</td><td>Barista making the latte; pandesal from the oven; customer smiling</td></tr><tr><td>Proof</td><td>20-25 s</td><td>Build trust</td><td>\"4.8 stars on Google\" on screen</td></tr><tr><td>Call to action</td><td>25-30 s</td><td>Tell viewers what to do</td><td>\"Message us to reserve - promo this weekend only!\"</td></tr></tbody></table></div><h3>Storyboard</h3><p>A <strong>storyboard</strong> lists each shot before recording: shot number, what is seen, what is heard (voice, music, sound), on-screen text and duration. It saves time on the shoot and makes the client approval easier.</p>"
+  },
+  {
+   "h": "Part 3 — Basic Videography and Editing",
+   "html": "<p class=\"kicker\">Information Sheet 2.1-3</p><h3>Basic Videography</h3><ul><li><strong>Vertical 9:16</strong>, 1080 x 1920, 30 fps; clean the lens; lock exposure and focus on the subject.</li><li><strong>Light:</strong> face a window or use an LED light at 45 degrees; avoid strong backlight.</li><li><strong>Stable shots:</strong> tripod or two-hand grip; slow, smooth movement.</li><li><strong>Sound:</strong> use a lavalier or condenser microphone; record in a quiet place; audio matters more than resolution.</li><li><strong>Shot variety:</strong> wide (context), medium (action), close-up (detail); change shot every 1-3 seconds.</li><li><strong>On-camera presentation:</strong> look at the lens, speak clearly and with energy, keep it natural.</li></ul><h3>Editing Workflow (CapCut or DaVinci Resolve)</h3><ol><li>Import clips and arrange them following the storyboard.</li><li>Trim dead air and mistakes; keep the pace fast.</li><li>Add <strong>captions</strong> (most viewers watch without sound) and on-screen text in brand fonts.</li><li>Add licensed music at a low level under the voice; use the platform's commercial music library for business accounts.</li><li>Color-correct (brightness, contrast, white balance) so all clips match.</li><li>Export 1080 x 1920, 30 fps, H.264; write the title, caption, hashtags and cover image (video SEO).</li></ol><div class=\"note\"><b>Copyright:</b> Business accounts on TikTok and Instagram may only use the <strong>commercial music library</strong>. Trending songs on personal accounts are not licensed for business promotion.</div>"
+  },
+  {
+   "h": "Part 4 — Blog Anatomy, Categories and SEO",
+   "html": "<p class=\"kicker\">Information Sheet 2.1-4</p><p>After this part you should be able to:</p><ol><li>describe the anatomy of a blog and publish content in a content management system;</li><li>categorize and tag content based on the content plan and topic clusters;</li><li>edit content for search engine optimization and use hashtags;</li><li>use basic HTML and CSS for content formatting; and</li><li>execute a campaign by scheduling, distributing and promoting content, including split testing.</li></ol><h3>Anatomy of a Blog Post</h3><div class=\"tblwrap\"><table><thead><tr><th>Part</th><th>Best practice</th></tr></thead><tbody><tr><td>SEO title (H1)</td><td>Contains the main keyword; about 50-60 characters</td></tr><tr><td>Meta description</td><td>Summary shown on Google; about 150-160 characters; includes the keyword</td></tr><tr><td>URL slug</td><td>Short, lowercase, hyphens: /breakfast-san-juan-la-union</td></tr><tr><td>Introduction</td><td>Hook + keyword in the first 100 words</td></tr><tr><td>Subheadings (H2, H3)</td><td>Break the text; use related keywords</td></tr><tr><td>Images</td><td>Compressed; descriptive file names and <strong>alt text</strong></td></tr><tr><td>Links</td><td>Internal links to other posts/pages and trusted external links</td></tr><tr><td>Call to action</td><td>One clear next step at the end</td></tr></tbody></table></div><h3>Categories, Tags and Topic Clusters</h3><ul><li><strong>Content categories</strong> (CS): informational (teaches), transactional (buy now), commercial (compare, review), navigational (find the brand).</li><li><strong>Category</strong> in WordPress = the broad section (e.g., Food Guides); <strong>tags</strong> = specific topics (San Juan, breakfast).</li><li><strong>Topic cluster:</strong> one pillar page (\"Complete Guide to San Juan, La Union\") linked to many cluster posts (surf spots, cafes, where to stay). Search engines then see the site as an authority on the topic.</li></ul><h3>Search Engine Optimization (SEO) and Hashtags</h3><div class=\"tblwrap\"><table><thead><tr><th>SEO type</th><th>What to do</th></tr></thead><tbody><tr><td>On-page SEO</td><td>Keyword in title, first paragraph, headings, URL, image alt text; useful, original content</td></tr><tr><td>Off-page SEO</td><td>Links from other trusted sites, social shares, reviews</td></tr><tr><td>Local SEO</td><td>Complete Google Business Profile (address, hours, photos), local keywords, customer reviews</td></tr><tr><td>Video SEO</td><td>Keyword in video title, description and captions; custom thumbnail; chapters on YouTube</td></tr></tbody></table></div><p>Hashtags: 3-5 relevant hashtags per post - one branded (#KapetAlon), one local (#SanJuanLaUnion) and topic hashtags. Avoid banned or unrelated trending hashtags.</p>"
+  },
+  {
+   "h": "Part 5 — Basic HTML and CSS for Content",
+   "html": "<p class=\"kicker\">Information Sheet 2.1-4</p><h3>Basic HTML and CSS for Content Formatting</h3><p>WordPress and most CMSs let you edit a post in HTML. <strong>HTML</strong> gives structure (headings, paragraphs, links, lists); <strong>CSS</strong> gives style (fonts, colors, spacing). The example below is a complete blog post page; the screenshot is the result in a browser.</p><pre class=\"code\">&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;\n&lt;title&gt;5 Breakfast Spots Near the Beach in San Juan, La Union&lt;/title&gt;\n&lt;meta name=&quot;description&quot; content=&quot;Where to eat breakfast after surfing in San Juan, La\n  Union: five local spots with prices.&quot;&gt;\n&lt;style&gt;\n  body {\n    font-family:Georgia,serif;\n    max-width:640px;\n    margin:24px auto;\n    padding:0 16px;\n    color:#222;\n    line-height:1.6;\n  }\n  h1 {\n    font-family:Arial,sans-serif;\n    font-size:28px;\n    line-height:1.2;\n    color:#1F3A5F;\n    margin-bottom:4px;\n  }\n  .meta{font-family:Arial,sans-serif;font-size:13px;color:#777;margin-bottom:16px}\n  h2{font-family:Arial,sans-serif;font-size:20px;color:#0033CC;margin:22px 0 6px}\n  .cta {\n    background:#FFF2CC;\n    border-left:5px solid #F2A900;\n    padding:10px 14px;\n    font-family:Arial,sans-serif;\n  }\n  a{color:#0033CC}\n&lt;/style&gt;&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;5 Breakfast Spots Near the Beach in San Juan, La Union&lt;/h1&gt;\n  &lt;p class=&quot;meta&quot;&gt;Category: Food Guides | Tags: San Juan, breakfast, surf, iced coffee&lt;/p&gt;\n  &lt;p&gt;Looking for &lt;strong&gt;breakfast in San Juan, La Union&lt;/strong&gt; after an early surf\n    session?\n     Here are five spots within walking distance of the beach.&lt;/p&gt;\n  &lt;h2&gt;1. Kape&#x27;t Alon Cafe - iced latte and pandesal&lt;/h2&gt;\n  &lt;p&gt;Our &lt;a href=&quot;/menu&quot;&gt;breakfast set&lt;/a&gt; costs P149 and is ready in five minutes.&lt;/p&gt;\n  &lt;h2&gt;2. Tips for choosing a breakfast spot&lt;/h2&gt;\n  &lt;ul&gt;&lt;li&gt;Check opening hours on Google Maps.&lt;/li&gt;&lt;li&gt;Look for places with fresh, local\n    ingredients.&lt;/li&gt;&lt;/ul&gt;\n  &lt;p class=&quot;cta&quot;&gt;Visit us at the beachfront or &lt;a href=&quot;https://m.me/kapetalon&quot;&gt;message\n    us&lt;/a&gt; to reserve.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;</pre><div class=\"tblwrap\"><table><thead><tr><th>Tag</th><th>Purpose</th></tr></thead><tbody><tr><td>&lt;h1&gt;, &lt;h2&gt;</td><td>Title and subheadings (one H1 per page)</td></tr><tr><td>&lt;p&gt;</td><td>Paragraph</td></tr><tr><td>&lt;strong&gt;</td><td>Important words (bold)</td></tr><tr><td>&lt;a href=\"...\"&gt;</td><td>Link</td></tr><tr><td>&lt;ul&gt;&lt;li&gt;</td><td>Bulleted list</td></tr><tr><td>&lt;img src=\"...\" alt=\"...\"&gt;</td><td>Image with alt text for SEO and accessibility</td></tr><tr><td>&lt;meta name=\"description\"&gt;</td><td>Text shown in Google results</td></tr></tbody></table></div>"
+  },
+  {
+   "h": "Part 6 — Executing the Campaign",
+   "html": "<p class=\"kicker\">Information Sheet 2.1-4</p><h3>Executing the Campaign</h3><ol><li><strong>Schedule:</strong> load the approved content into Meta Business Suite, TikTok Studio or WordPress with the calendar dates and times.</li><li><strong>Distribute:</strong> publish on each planned platform; share the blog post to social pages; send the e-mail if planned.</li><li><strong>Promote:</strong> boost the best-performing organic post to a defined audience (location, age, interests) with a set budget and end date; respond to comments and messages quickly.</li><li><strong>Split (A/B) testing:</strong> run two versions that differ in <strong>one</strong> element only (headline, image or call to action) with the same audience and budget; keep the better one.</li></ol>"
+  }
+ ],
+ "sheets": [],
+ "activities": [
+  {
+   "id": "3.0",
+   "title": "Warm-up: Video, Blog and Campaign Basics",
+   "mode": "Individual",
+   "minutes": 15,
+   "html": "<p>Answer from the Day 3 lesson. Tap <strong>Check</strong>, fix what is wrong, then tap <strong>Submit</strong>.</p>",
+   "points": 10,
+   "parts": [
+    {
+     "id": "q1",
+     "type": "choice",
+     "points": 2,
+     "prompt": "How long is the hook of a short-form video?",
+     "options": [
+      [
+       "a",
+       "0 to 3 seconds"
+      ],
+      [
+       "b",
+       "5 to 10 seconds"
+      ],
+      [
+       "c",
+       "The whole video"
+      ],
+      [
+       "d",
+       "The last 5 seconds"
+      ]
+     ],
+     "hash": "3058200f25b4d7ae05aa"
+    },
+    {
+     "id": "q2",
+     "type": "choice",
+     "points": 2,
+     "prompt": "A Reel is recorded at:",
+     "options": [
+      [
+       "a",
+       "1080 × 1080 (1:1)"
+      ],
+      [
+       "b",
+       "1280 × 720 (16:9)"
+      ],
+      [
+       "c",
+       "1080 × 1920 (9:16)"
+      ],
+      [
+       "d",
+       "1640 × 624"
+      ]
+     ],
+     "hash": "154478cd7017bf84babb"
+    },
+    {
+     "id": "q3",
+     "type": "choice",
+     "points": 2,
+     "prompt": "A good meta description is about:",
+     "options": [
+      [
+       "a",
+       "20 characters"
+      ],
+      [
+       "b",
+       "150 to 160 characters"
+      ],
+      [
+       "c",
+       "500 characters"
+      ],
+      [
+       "d",
+       "One full page"
+      ]
+     ],
+     "hash": "02123cda510c08f90217"
+    },
+    {
+     "id": "q4",
+     "type": "choice",
+     "points": 2,
+     "prompt": "In an A/B test, the two versions differ in:",
+     "options": [
+      [
+       "a",
+       "Everything"
+      ],
+      [
+       "b",
+       "Audience and budget"
+      ],
+      [
+       "c",
+       "One element only"
+      ],
+      [
+       "d",
+       "Platform only"
+      ]
+     ],
+     "hash": "c67636047f3b4a32a688"
+    },
+    {
+     "id": "q5",
+     "type": "choice",
+     "points": 2,
+     "prompt": "Music for a business account's TikTok video should come from:",
+     "options": [
+      [
+       "a",
+       "Any trending song"
+      ],
+      [
+       "b",
+       "The commercial music library"
+      ],
+      [
+       "c",
+       "A downloaded MP3"
+      ],
+      [
+       "d",
+       "A movie soundtrack"
+      ]
+     ],
+     "hash": "563adfbfbf339e72b605"
+    }
+   ]
+  },
+  {
+   "id": "3.1",
+   "title": "Script and Storyboard of a Short Video",
+   "mode": "Individual",
+   "minutes": 60,
+   "html": "<p>Task Sheet 2.1-2, step 1. Open the <strong>Storyboard</strong> and plan one 15- to 30-second vertical video for your client. The timeline shows where each shot falls: hook, value, proof and call to action.</p><ol><li>Write the script and storyboard (hook, value, proof, call to action; 6-10 shots) and have it approved by the trainer.</li></ol><p class=\"small\">Show the storyboard to your trainer for approval before you record (Activity 3.2).</p>",
+   "points": 20,
+   "parts": [
+    {
+     "id": "board",
+     "type": "studio",
+     "tool": "video",
+     "view": "plan",
+     "points": 10,
+     "prompt": "Script and storyboard (Storyboard)",
+     "checks": [
+      {
+       "k": "text",
+       "path": "title",
+       "min": 5,
+       "label": "Working title"
+      },
+      {
+       "k": "text",
+       "path": "idea",
+       "min": 30,
+       "label": "Idea and message written"
+      },
+      {
+       "k": "items",
+       "path": "shots",
+       "fields": [
+        "type",
+        "visual",
+        "audio",
+        "secs"
+       ],
+       "min": 6,
+       "label": "6 or more complete shots (shot, seen, heard, seconds)"
+      },
+      {
+       "k": "distinct",
+       "path": "shots",
+       "field": "type",
+       "min": 3,
+       "label": "Three or more kinds of shot (wide, medium, close-up…)"
+      },
+      {
+       "k": "sum",
+       "path": "shots",
+       "field": "secs",
+       "min": 15,
+       "max": 30,
+       "label": "Total length 15 to 30 seconds"
+      },
+      {
+       "k": "num",
+       "path": "shots.0.secs",
+       "min": 0.5,
+       "max": 3,
+       "label": "The hook (shot 1) is 3 seconds or less"
+      },
+      {
+       "k": "items",
+       "path": "shots",
+       "fields": [
+        "text"
+       ],
+       "min": 2,
+       "label": "On-screen text in 2 or more shots"
+      }
+     ]
+    },
+    {
+     "id": "pcc",
+     "type": "rubric",
+     "manual": true,
+     "points": 10,
+     "prompt": "Quality of the plan (trainer)",
+     "criteria": [
+      "Did you plan the video with a hook, message and call to action in a storyboard?",
+      "Is the hook strong, and does the video end with one clear call to action?",
+      "Did the trainer (client) approve the storyboard?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "title": "Record, Edit and Publish-Ready Short Video",
+   "mode": "Individual",
+   "minutes": 180,
+   "html": "<p>Task Sheet 2.1-2, steps 2 to 6. Record with your smartphone or the DSLR, edit in CapCut or DaVinci Resolve, then complete each card of the <strong>Storyboard › Produce</strong> view. Choose your exported video: the lab reads its size and length on this device.</p><ol><li>Set up the tripod, light (45 degrees) and microphone; test the audio.</li><li>Record the shots in 9:16, 1080 x 1920, 30 fps with wide, medium and close-up variety.</li><li>Edit: trim, arrange, add captions and on-screen text in brand fonts, add licensed music under the voice, color-correct.</li><li>Export and write the video title, caption, hashtags and cover (video SEO).</li><li>Review with the proofreading checklist and the copyright rules; save to your portfolio.</li></ol>",
+   "points": 30,
+   "parts": [
+    {
+     "id": "video",
+     "type": "studio",
+     "tool": "video",
+     "view": "produce",
+     "points": 15,
+     "prompt": "The finished video (Storyboard › Produce)",
+     "checks": [
+      {
+       "k": "ticked",
+       "path": "setup",
+       "keys": [
+        "tripod",
+        "light",
+        "mic",
+        "lens",
+        "format"
+       ],
+       "label": "Equipment set up (all 5 items)"
+      },
+      {
+       "k": "ratio",
+       "path": "file",
+       "w": 1080,
+       "h": 1920,
+       "minW": 1080,
+       "label": "Video is 1080 × 1920 (9:16)"
+      },
+      {
+       "k": "num",
+       "path": "file.dur",
+       "min": 15,
+       "max": 30,
+       "label": "Video is 15 to 30 seconds long"
+      },
+      {
+       "k": "ticked",
+       "path": "edit",
+       "keys": [
+        "trim",
+        "captions",
+        "text",
+        "music",
+        "color",
+        "export"
+       ],
+       "label": "Editing checklist complete (all 6 items)"
+      },
+      {
+       "k": "items",
+       "path": "media",
+       "fields": [
+        "file",
+        "source",
+        "license"
+       ],
+       "min": 2,
+       "label": "Media log: the video and the music with source and license"
+      },
+      {
+       "k": "share",
+       "path": "media",
+       "field": "consent",
+       "value": "Missing",
+       "max": 0,
+       "label": "No media with missing consent"
+      },
+      {
+       "k": "text",
+       "path": "seo.title",
+       "min": 10,
+       "label": "Video title written"
+      },
+      {
+       "k": "hashtags",
+       "path": "seo.caption",
+       "min": 3,
+       "max": 5,
+       "label": "Caption with 3 to 5 hashtags"
+      },
+      {
+       "k": "text",
+       "path": "seo.cover",
+       "min": 5,
+       "label": "Cover chosen"
+      }
+     ]
+    },
+    {
+     "id": "pcc",
+     "type": "rubric",
+     "manual": true,
+     "points": 15,
+     "prompt": "Quality of the recording and editing (trainer)",
+     "criteria": [
+      "Did you set up the equipment correctly (stable shot, good light, clear audio)?",
+      "Did you record the content in the correct format and with shot variety?",
+      "Did you edit the recorded content following industry practices (pace, captions, color, audio)?",
+      "Did you use only licensed music and media?",
+      "Did you optimize the video title, caption and hashtags for search?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "title": "SEO Blog Post",
+   "mode": "Individual",
+   "minutes": 120,
+   "html": "<p>Task Sheet 2.1-3. Write the post in the <strong>Blog Editor</strong>: the Google preview and the page preview update as you type. When it is ready, copy the HTML into the class WordPress site (block editor › Code editor) and publish or schedule it.</p><ol><li>Choose a long-tail keyword from your keyword list and outline the post (H1, 2-3 H2, call to action).</li><li>Write at least 400 words: hook and keyword in the first 100 words, helpful and original content.</li><li>Format in the block editor and check the HTML: one H1, H2 subheadings, a list, a link and bold keywords.</li><li>Add a featured image (1280 x 720, compressed) with a descriptive file name and alt text.</li><li>Set the category and 3-5 tags; write the SEO title, meta description and URL slug.</li><li>Add one internal link and one trusted external link; preview on phone and desktop; publish or schedule.</li></ol><p>A complete example of a formatted post:</p><iframe class=\"example\" sandbox=\"\" loading=\"lazy\" title=\"Example\" srcdoc=\"\n    &lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;\n    &lt;title&gt;5 Breakfast Spots Near the Beach in San Juan, La Union&lt;/title&gt;\n    &lt;meta name=&quot;description&quot; content=&quot;Where to eat breakfast after surfing in San Juan, La Union: five local spots with prices.&quot;&gt;\n    &lt;style&gt;\n      body{font-family:Georgia,serif;max-width:640px;margin:24px auto;padding:0 16px;color:#222;line-height:1.6}\n      h1{font-family:Arial,sans-serif;font-size:28px;line-height:1.2;color:#1F3A5F;margin-bottom:4px}\n      .meta{font-family:Arial,sans-serif;font-size:13px;color:#777;margin-bottom:16px}\n      h2{font-family:Arial,sans-serif;font-size:20px;color:#0033CC;margin:22px 0 6px}\n      .cta{background:#FFF2CC;border-left:5px solid #F2A900;padding:10px 14px;font-family:Arial,sans-serif}\n      a{color:#0033CC}\n    &lt;/style&gt;&lt;/head&gt;\n    &lt;body&gt;\n      &lt;h1&gt;5 Breakfast Spots Near the Beach in San Juan, La Union&lt;/h1&gt;\n      &lt;p class=&quot;meta&quot;&gt;Category: Food Guides | Tags: San Juan, breakfast, surf, iced coffee&lt;/p&gt;\n      &lt;p&gt;Looking for &lt;strong&gt;breakfast in San Juan, La Union&lt;/strong&gt; after an early surf session?\n         Here are five spots within walking distance of the beach.&lt;/p&gt;\n      &lt;h2&gt;1. Kape&#x27;t Alon Cafe - iced latte and pandesal&lt;/h2&gt;\n      &lt;p&gt;Our &lt;a href=&quot;/menu&quot;&gt;breakfast set&lt;/a&gt; costs P149 and is ready in five minutes.&lt;/p&gt;\n      &lt;h2&gt;2. Tips for choosing a breakfast spot&lt;/h2&gt;\n      &lt;ul&gt;&lt;li&gt;Check opening hours on Google Maps.&lt;/li&gt;&lt;li&gt;Look for places with fresh, local ingredients.&lt;/li&gt;&lt;/ul&gt;\n      &lt;p class=&quot;cta&quot;&gt;Visit us at the beachfront or &lt;a href=&quot;https://m.me/kapetalon&quot;&gt;message us&lt;/a&gt; to reserve.&lt;/p&gt;\n    &lt;/body&gt;&lt;/html&gt;\n    \"></iframe>",
+   "points": 30,
+   "parts": [
+    {
+     "id": "blog",
+     "type": "studio",
+     "tool": "blog",
+     "points": 15,
+     "prompt": "The blog post (Blog Editor)",
+     "checks": [
+      {
+       "k": "text",
+       "path": "keyword",
+       "min": 8,
+       "label": "Main keyword chosen"
+      },
+      {
+       "k": "has",
+       "path": "title",
+       "of": "keyword",
+       "label": "SEO title contains the keyword"
+      },
+      {
+       "k": "len",
+       "path": "title",
+       "min": 30,
+       "max": 60,
+       "label": "SEO title is 30 to 60 characters"
+      },
+      {
+       "k": "count",
+       "path": "slug",
+       "re": "^[a-z0-9]+(-[a-z0-9]+)+$",
+       "min": 1,
+       "label": "URL slug: lowercase words joined by hyphens"
+      },
+      {
+       "k": "len",
+       "path": "meta",
+       "min": 120,
+       "max": 160,
+       "label": "Meta description is 120 to 160 characters"
+      },
+      {
+       "k": "has",
+       "path": "meta",
+       "of": "keyword",
+       "label": "Meta description contains the keyword"
+      },
+      {
+       "k": "words",
+       "path": "body",
+       "min": 400,
+       "label": "At least 400 words"
+      },
+      {
+       "k": "has",
+       "path": "body",
+       "of": "keyword",
+       "first": 100,
+       "label": "Keyword in the first 100 words"
+      },
+      {
+       "k": "count",
+       "path": "body",
+       "re": "<h2",
+       "min": 2,
+       "label": "Two or more H2 subheadings"
+      },
+      {
+       "k": "count",
+       "path": "body",
+       "re": "<h1",
+       "min": 0,
+       "max": 0,
+       "label": "No H1 inside the body (the title is the H1)"
+      },
+      {
+       "k": "count",
+       "path": "body",
+       "re": "<li",
+       "min": 2,
+       "label": "A list with 2 or more items"
+      },
+      {
+       "k": "count",
+       "path": "body",
+       "re": "href=\"/",
+       "min": 1,
+       "label": "One internal link (href=\"/…\")"
+      },
+      {
+       "k": "count",
+       "path": "body",
+       "re": "href=\"https://",
+       "min": 1,
+       "label": "One external link (href=\"https://…\")"
+      },
+      {
+       "k": "ratio",
+       "path": "image",
+       "w": 1280,
+       "h": 720,
+       "minW": 1280,
+       "label": "Featured image is 1280 × 720 (16:9)"
+      },
+      {
+       "k": "text",
+       "path": "alt",
+       "min": 10,
+       "label": "Alt text of the image"
+      },
+      {
+       "k": "text",
+       "path": "category",
+       "label": "Content category chosen"
+      },
+      {
+       "k": "list",
+       "path": "tags",
+       "min": 3,
+       "max": 5,
+       "label": "3 to 5 tags"
+      }
+     ]
+    },
+    {
+     "id": "link",
+     "type": "text",
+     "manual": true,
+     "points": 3,
+     "rows": 1,
+     "prompt": "Link of your published or scheduled post on the class WordPress site"
+    },
+    {
+     "id": "pcc",
+     "type": "rubric",
+     "manual": true,
+     "points": 12,
+     "prompt": "Quality of the blog post (trainer)",
+     "criteria": [
+      "Did you create the blog content according to the purpose and the keyword?",
+      "Did you add media with alt text as planned?",
+      "Did you categorize the post according to the content plan?",
+      "Did you tag the post based on topic clusters?",
+      "Did you format the post correctly using headings, lists and links (HTML)?",
+      "Did you edit the content for SEO: title, meta description, slug, keyword placement?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "title": "Schedule and Execute the Campaign",
+   "mode": "Individual",
+   "minutes": 120,
+   "html": "<p>Task Sheet 2.1-4. Schedule the content on the practice pages, then record what you did in the <strong>Campaign Scheduler</strong>. Tap <em>Import my Day 2 calendar</em> to start from your plan.</p><ol><li>Load the graphics and the video into Meta Business Suite and TikTok Studio with the calendar dates, times, captions and hashtags.</li><li>Share the blog post link on the Facebook page with a short caption.</li><li>Set up an A/B test: two versions of one post that differ in one element; record the difference.</li><li>Prepare a boost plan for the best post: audience (location, age, interests), budget and duration (practice mode or a small real budget as directed).</li><li>Prepare replies to expected comments and messages (FAQ).</li><li>Take screenshots of the scheduled content and the boost plan for your portfolio.</li></ol>",
+   "points": 25,
+   "parts": [
+    {
+     "id": "camp",
+     "type": "studio",
+     "tool": "campaign",
+     "points": 13,
+     "prompt": "Campaign execution (Campaign Scheduler)",
+     "checks": [
+      {
+       "k": "items",
+       "path": "queue",
+       "fields": [
+        "date",
+        "time",
+        "platform",
+        "content"
+       ],
+       "min": 5,
+       "label": "5 or more scheduled items with date, time, platform and content"
+      },
+      {
+       "k": "distinct",
+       "path": "queue",
+       "field": "platform",
+       "min": 2,
+       "label": "Content on two or more platforms"
+      },
+      {
+       "k": "match",
+       "path": "queue",
+       "field": "content",
+       "re": "video",
+       "min": 1,
+       "label": "The short video is scheduled"
+      },
+      {
+       "k": "match",
+       "path": "queue",
+       "field": "content",
+       "re": "blog",
+       "min": 1,
+       "label": "The blog post is shared"
+      },
+      {
+       "k": "fields",
+       "path": "ab",
+       "fields": [
+        "element",
+        "a",
+        "b",
+        "metric"
+       ],
+       "min": 3,
+       "label": "A/B test: the element, both versions and the metric"
+      },
+      {
+       "k": "fields",
+       "path": "boost",
+       "fields": [
+        "post",
+        "location",
+        "age",
+        "interests"
+       ],
+       "min": 2,
+       "label": "Boost: post and audience (location, age, interests)"
+      },
+      {
+       "k": "num",
+       "path": "boost.budget",
+       "min": 1,
+       "label": "Boost budget set"
+      },
+      {
+       "k": "num",
+       "path": "boost.days",
+       "min": 1,
+       "max": 30,
+       "label": "Boost duration 1 to 30 days"
+      },
+      {
+       "k": "items",
+       "path": "faq",
+       "fields": [
+        "q",
+        "a"
+       ],
+       "min": 3,
+       "label": "3 or more prepared replies"
+      }
+     ]
+    },
+    {
+     "id": "pcc",
+     "type": "rubric",
+     "manual": true,
+     "points": 12,
+     "prompt": "Execution of the campaign (trainer, from your screenshots)",
+     "criteria": [
+      "Did you schedule the content according to the content calendar?",
+      "Did you distribute the content on all planned platforms?",
+      "Did you prepare the promotion (boost) with a defined audience, budget and duration?",
+      "Did you set up a valid A/B test that changes only one element?",
+      "Did you follow platform policies and pertinent laws in the campaign?"
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "title": "Self-Check Quiz: Video, Blog and Campaign",
+  "pass": 0.8,
+  "items": [
+   {
+    "n": 1,
+    "type": "choice",
+    "q": "Which part of a short video must stop the scroll in the first 3 seconds?",
+    "options": [
+     "Hook",
+     "Credits",
+     "Call to action",
+     "Outro"
+    ],
+    "hash": "be98dce8b21ece0fef71"
+   },
+   {
+    "n": 2,
+    "type": "choice",
+    "q": "Where should an LED light be placed for a natural look?",
+    "options": [
+     "It is not needed",
+     "About 45 degrees to the side of the face",
+     "Directly behind the subject",
+     "Under the chin"
+    ],
+    "hash": "cdd95b14b7d7afe7aa30"
+   },
+   {
+    "n": 3,
+    "type": "choice",
+    "q": "Why are captions added to short videos?",
+    "options": [
+     "Platforms require them",
+     "Many viewers watch without sound",
+     "To make the file larger",
+     "To hide mistakes"
+    ],
+    "hash": "e98bc7ce3fba29190dc2"
+   },
+   {
+    "n": 4,
+    "type": "choice",
+    "q": "Which document lists each shot, audio and on-screen text before recording?",
+    "options": [
+     "Media log",
+     "Invoice",
+     "Content audit",
+     "Storyboard"
+    ],
+    "hash": "02e669742e8d3b9424ec"
+   },
+   {
+    "n": 5,
+    "type": "choice",
+    "q": "True or false: Audio quality is less important than video resolution.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "c13a30e295cdd0054054"
+   },
+   {
+    "n": 6,
+    "type": "choice",
+    "q": "True or false: Business accounts should use the commercial music library.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "fee7bd121c84468c27a1"
+   },
+   {
+    "n": 7,
+    "type": "choice",
+    "q": "Which HTML tag should be used only once for the main title of a blog post?",
+    "options": [
+     "<h1>",
+     "<li>",
+     "<p>",
+     "<h2>"
+    ],
+    "hash": "6173666cc24723edf4cb"
+   },
+   {
+    "n": 8,
+    "type": "choice",
+    "q": "A guide that teaches \"how to choose a surfboard\" is which content category?",
+    "options": [
+     "Navigational",
+     "Informational",
+     "Commercial",
+     "Transactional"
+    ],
+    "hash": "13eb9a87b4ae74ef09ab"
+   },
+   {
+    "n": 9,
+    "type": "choice",
+    "q": "Which SEO type includes completing the Google Business Profile?",
+    "options": [
+     "Technical SEO",
+     "Off-page SEO",
+     "Video SEO",
+     "Local SEO"
+    ],
+    "hash": "8e3c11c14db188407d86"
+   },
+   {
+    "n": 10,
+    "type": "choice",
+    "q": "In an A/B test, how many elements should differ between the two versions?",
+    "options": [
+     "All",
+     "None",
+     "One",
+     "Two"
+    ],
+    "hash": "9583ca2f04ba19260a64"
+   },
+   {
+    "n": 11,
+    "type": "choice",
+    "q": "What attribute describes an image for search engines and screen readers?",
+    "options": [
+     "title only",
+     "alt",
+     "href",
+     "class"
+    ],
+    "hash": "8e3ccf1909746533d330"
+   },
+   {
+    "n": 12,
+    "type": "choice",
+    "q": "True or false: A topic cluster links many related posts to one pillar page.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "a3617d304dba663b8b11"
+   },
+   {
+    "n": 13,
+    "type": "choice",
+    "q": "True or false: Using many unrelated trending hashtags always improves reach.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "hash": "ff4a9072f084517329be"
+   }
+  ]
+ },
+ "labTips": [
+  "Your client, keywords and calendar from Day 2 are brought into Day 3 automatically on the same device.",
+  "Videos and images stay on your device: the lab reads their size and length only."
+ ],
+ "generated": "2026-11-12T06:48:49.000Z",
+ "files": []
+}

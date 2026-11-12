@@ -917,11 +917,12 @@ function renderLesson(n, day, cfg, k) {
     const clips = [vid.intro, ...vid.chapters].filter(Boolean).map((c, k) => ({ ...c, k }));
     const list = el("table", { class: "vchapters" }, el("tbody", {}, ...clips.map((c) =>
       el("tr", { "data-k": c.k, tabindex: 0, role: "button", title: `Play: ${c.title}` },
-        el("td", { class: "mono" }, el("span", { class: "vtri-sm" }), fmtSec(toSec(c.end) - toSec(c.start))), el("td", {}, c.title),
-        el("td", { class: "muted" }, partsOf(c).join(", "))))));
+        el("td", { class: "mono" }, el("span", { class: "vtri-sm" }), `${c.start}–${c.end}`),
+        el("td", {}, c.title, el("span", { class: "small muted" }, `  ${fmtSec(toSec(c.end) - toSec(c.start))}`)),
+        el("td", { class: "muted" }, partsOf(c).map((p) => p.replace("Part", "Lesson part")).join(", "))))));
     list.__clips = clips;
-    return clipBox(clips[0], clips[0].title, "The demonstration in short parts. Each part stops at its end: tap Next, or pick a part below. " +
-      "The lesson parts with a VIDEO tag play their own part.", { list });
+    return clipBox(clips[0], clips[0].title, `The whole Day ${n} demonstration (${vid.length || ""}) in short parts. Each part starts and stops at its own topic: ` +
+      "tap Next, or pick a part below. The lesson parts with a VIDEO tag play their own part.", { list });
   } });
   else if (vid) items.push({ title: "Demo video", video: true, short: "Demo video", body: () =>
     videoBox(vid.url, `Day ${n} demonstration: ${day.title}`, "The whole demonstration. Tap a chapter below to jump to it. The lesson parts that have a VIDEO tag also play their own chapter.",
@@ -933,7 +934,7 @@ function renderLesson(n, day, cfg, k) {
     const idx = items.length;
     items.push({ title: sec.h, video: !!ch, short: sec.h.replace(/^Part (\d+) — /, "$1 · "), body: () => [el("div", { class: "prose", html: sec.html }),
       ch && holder ? videoPlaceholder(ch.title, "The video for this part of the lesson will be added here.") :
-      ch && useClips ? clipBox(ch, ch.title, `Just this part of the demo (${fmtSec(toSec(ch.end) - toSec(ch.start))}). It stops at the end of the topic.`,
+      ch && useClips ? clipBox(ch, ch.title, `Just this topic: ${fmtSec(toSec(ch.end) - toSec(ch.start))}, from ${ch.start} to ${ch.end} of the Day ${n} demonstration. It stops at the end of the topic.`,
         { next: idx + 1 < items.length ? { href: `#/lesson/${n}/${idx + 1}`, label: "Next part of the lesson" } : null }) :
       ch ? videoBox(vid.url, ch.title, `This part of the demo plays from ${ch.start}` + (ch.end ? ` and ends at ${ch.end}: stop the video there, or keep watching the next part` : "") +
         ".", null, toSec(ch.start)) : ""] });
@@ -1170,6 +1171,12 @@ async function viewActivity(n, actId, shareId) {
   if (needsSheet) await loadEngine();
   const wb = needsSheet ? new Workbook(day, store.get(K.wb(tag))) : null;
   const sdoc = studioParts.length ? normDoc(store.get(K.studio(tag))) : null;
+  if (sdoc && !(sdoc.planner.client || {}).name) {                  // later days reuse the client, keywords and calendar planned earlier
+    for (let d = n - 1; d >= 1; d--) {
+      const prev = store.get(K.studio(`day${String(d).padStart(2, "0")}`));
+      if (prev && prev.planner && prev.planner.client && prev.planner.client.name) { sdoc.planner = normDoc(prev).planner; break; }
+    }
+  }
   let dirty = false, ui = null;
   const saveLocal = debounce(() => {
     if (wb) store.set(K.wb(tag), wb.serialize());
@@ -1432,7 +1439,9 @@ async function viewActivity(n, actId, shareId) {
       done.add(k);
       const sub = el("div", { class: "toolhost" });
       right.firstChild.append(sub);
-      mountTool(sub, p.tool, p.view, sdoc, () => { touch(); paintChecksSoon(); }, { slots: p.slots, scope: `${uid()}|${tag}|${act.id}` });
+      mountTool(sub, p.tool, p.view, sdoc, () => { touch(); paintChecksSoon(); }, { slots: p.slots, scope: `${uid()}|${tag}|${act.id}`,
+        brand: (sdoc.planner.client || {}).name || "", calendar: sdoc.planner.calendar || [],
+        keywords: (sdoc.planner.keywords || []).filter((k) => /long|local/i.test(k.type || "") && k.kw).map((k) => k.kw).slice(0, 8) });
     }
     paintChecks();
   }

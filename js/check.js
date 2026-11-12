@@ -135,6 +135,12 @@
        {k:"len", path:"posts.*.caption", min:80, max:2200}   text length
        {k:"ticked", path:"posts.*.proof", keys:["kw","grammar"]}   every listed box ticked
        {k:"fields", path:"audience.cold", fields:["who","msg"], min:5}  every listed field of an object written
+       {k:"num", path:"file.dur", min:15, max:30}             a number in a range
+       {k:"sum", path:"shots", field:"secs", min:15, max:30}  total of a number column in a range
+       {k:"words", path:"body", min:400}                     word count (HTML tags ignored)
+       {k:"count", path:"body", re:"<h2", min:2}             how many times a pattern occurs (min / max)
+       {k:"list", path:"tags", min:3, max:5}                 comma-separated items
+       {k:"has", path:"title", of:"keyword", first:100}      contains the text found at another path (optionally in the first N words)
      A "*" in the path means EVERY item of that list must pass (an empty list fails). Checks are not secret: they test that
      the work is complete; the quality is graded by the trainer with the Performance Criteria Checklist. */
   function getPath(o, path) {
@@ -154,7 +160,9 @@
   const filled = (v) => v != null && String(v).trim() !== "";
   const rowsOf = (v) => (Array.isArray(v) ? v.filter((r) => r && typeof r === "object") : []);
   const complete = (r, fields) => (fields || []).every((f) => filled(r[f]));
-  function studioOne(c, v) {
+  const plain = (s) => String(s == null ? "" : s).replace(/<[^>]*>/g, " ").replace(/&[a-z]+;/gi, " ");
+  const toNum = (v) => (typeof v === "number" ? v : parseFloat(String(v == null ? "" : v).replace(/[₱,\s]/g, "")));
+  function studioOne(c, v, doc) {
     switch (c.k) {
       case "text": return filled(v) && String(v).trim().length >= (c.min || 1);
       case "len": { const n = String(v == null ? "" : v).trim().length; return n >= (c.min || 1) && (c.max == null || n <= c.max); }
@@ -183,13 +191,30 @@
         return n >= (c.min || 0) && (c.max == null || n <= c.max);
       }
       case "fields": return !!v && (c.fields || []).every((f) => filled(v[f]) && String(v[f]).trim().length >= (c.min || 1));
+      case "num": { const n = toNum(v); return isFinite(n) && (c.min == null || n >= c.min) && (c.max == null || n <= c.max); }
+      case "sum": {
+        const rows = rowsOf(v);
+        if (!rows.length) return false;
+        const n = rows.reduce((a, r) => a + (isFinite(toNum(r[c.field])) ? toNum(r[c.field]) : 0), 0);
+        return (c.min == null || n >= c.min) && (c.max == null || n <= c.max);
+      }
+      case "words": { const n = plain(v).split(/\s+/).filter(Boolean).length; return n >= (c.min || 1) && (c.max == null || n <= c.max); }
+      case "count": { const n = (String(v == null ? "" : v).match(new RegExp(c.re, "gi")) || []).length; return n >= (c.min == null ? 1 : c.min) && (c.max == null || n <= c.max); }
+      case "list": { const n = String(v == null ? "" : v).split(/[,\n]/).map((x) => x.trim()).filter(Boolean).length; return n >= (c.min || 1) && (c.max == null || n <= c.max); }
+      case "has": {
+        const needle = normText(getPath(doc || {}, c.of)[0]);
+        if (!needle) return false;
+        let hay = plain(v);
+        if (c.first) hay = hay.split(/\s+/).filter(Boolean).slice(0, c.first).join(" ");
+        return normText(hay).indexOf(needle) >= 0;
+      }
       case "ticked": return !!v && (c.keys || []).every((k) => v[k] === true);
       default: return false;
     }
   }
   function studioCheck(c, doc) {
     const vals = getPath(doc || {}, c.path);
-    return vals.length > 0 && vals.every((v) => studioOne(c, v));
+    return vals.length > 0 && vals.every((v) => studioOne(c, v, doc));
   }
 
   /**

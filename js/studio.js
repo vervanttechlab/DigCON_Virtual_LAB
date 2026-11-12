@@ -5,6 +5,8 @@
 //   posts    · post composer: image size check, caption with counters, framework, CTA, proofreading checklist,
 //              live Facebook / Instagram / TikTok / Story previews, and the media log
 import { el, icon, toast } from "./ui.js";
+import { field, select, rowsEditor, card, idb, readImage, shrink, kv, table } from "./studio-kit.js";
+import { emptyProduce, mountProduce, produceView, produceText } from "./studio-produce.js";
 
 const C = () => window.LabCheck;
 
@@ -51,6 +53,7 @@ export function emptyDoc() {
       keywords: [], calendar: [],
     },
     posts: { items: [], log: [] },
+    ...emptyProduce(),
   };
 }
 /** Fill gaps left by older saves so every tool can rely on its fields. */
@@ -63,7 +66,16 @@ export function normDoc(d) {
     warm: { ...e.planner.audience.warm, ...((p.audience || {}).warm || {}) }, hot: { ...e.planner.audience.hot, ...((p.audience || {}).hot || {}) } };
   for (const k of ["goals", "platforms", "tools", "keywords", "calendar"]) if (!Array.isArray(p[k])) p[k] = [];
   const posts = { items: [], log: [], ...(d.posts || {}) };
-  return { v: 1, planner: p, posts };
+  const e2 = emptyProduce();
+  const video = { ...e2.video, ...(d.video || {}) };
+  video.seo = { ...e2.video.seo, ...(video.seo || {}) }; video.setup = video.setup || {}; video.edit = video.edit || {};
+  if (!Array.isArray(video.shots) || !video.shots.length) video.shots = e2.video.shots;
+  if (!Array.isArray(video.media)) video.media = [];
+  const blog = { ...e2.blog, ...(d.blog || {}) };
+  const campaign = { ...e2.campaign, ...(d.campaign || {}) };
+  campaign.ab = { ...e2.campaign.ab, ...(campaign.ab || {}) }; campaign.boost = { ...e2.campaign.boost, ...(campaign.boost || {}) };
+  for (const k of ["queue", "faq"]) if (!Array.isArray(campaign[k])) campaign[k] = [];
+  return { v: 1, planner: p, posts, video, blog, campaign };
 }
 /** The part of the document an activity part sends as its answer. */
 export function answerOf(tool, doc) {
@@ -71,55 +83,10 @@ export function answerOf(tool, doc) {
     const pl = doc.planner || {};
     return { ...doc.posts, brand: (pl.client || {}).name || "" };
   }
+  if (tool === "video") return { ...doc.video, brand: ((doc.planner || {}).client || {}).name || "" };
+  if (tool === "blog" || tool === "campaign") return doc[tool];
   return doc.planner;
 }
-
-// ------------------------------------------------------------------ small editors
-function field(label, obj, key, { area = false, rows = 3, placeholder = "", hint = "", onChange, max = null } = {}) {
-  const inp = el(area ? "textarea" : "input", area ? { rows, placeholder } : { type: "text", placeholder });
-  inp.value = obj[key] || "";
-  const cnt = max ? el("span", { class: "cnt" }) : "";
-  const paint = () => { if (cnt) { cnt.textContent = `${inp.value.length}/${max}`; cnt.classList.toggle("over", inp.value.length > max); } };
-  inp.addEventListener("input", () => { obj[key] = inp.value; paint(); onChange && onChange(); });
-  paint();
-  return el("label", { class: "sf" }, el("span", { class: "sf-l" }, label, cnt), inp, hint ? el("span", { class: "sf-h" }, hint) : "");
-}
-function select(options, value, onPick, placeholder = "Choose…") {
-  const s = el("select", {}, el("option", { value: "" }, placeholder),
-    ...options.map((o) => { const [v, t] = Array.isArray(o) ? o : [o, o]; return el("option", { value: v, selected: v === value }, t); }));
-  s.addEventListener("change", () => onPick(s.value));
-  return s;
-}
-/** A list of rows: a table on wide screens, stacked cards on a phone (CSS). cols: {key,label,type,options,placeholder,list,w} */
-function rowsEditor(rows, cols, { addLabel = "Add a row", onChange, min = 0, numbered = true, blank } = {}) {
-  const host = el("div", { class: "rows" });
-  const body = el("div", { class: "rows-body" });
-  const draw = () => {
-    body.replaceChildren(...rows.map((r, i) => {
-      const cells = cols.map((c) => {
-        let inp;
-        if (c.type === "select") inp = select(c.options, r[c.key] || "", (v) => { r[c.key] = v; onChange(); });
-        else {
-          inp = el("input", { type: c.type === "date" ? "date" : "text", placeholder: c.placeholder || "", list: c.list || null });
-          inp.value = r[c.key] || "";
-          inp.addEventListener("input", () => { r[c.key] = inp.value; onChange(); });
-        }
-        return el("label", { class: "rc", style: c.w ? `--w:${c.w}` : null }, el("span", { class: "rc-l" }, c.label), inp);
-      });
-      const del = el("button", { class: "btn icon small rdel", type: "button", title: "Remove this row", "aria-label": "Remove this row" }, icon("close"));
-      del.addEventListener("click", () => { if (rows.length <= min) return toast(`Keep at least ${min} row${min > 1 ? "s" : ""}.`); rows.splice(i, 1); draw(); onChange(); });
-      return el("div", { class: "rrow" }, numbered ? el("span", { class: "rnum mono" }, String(i + 1)) : "", ...cells, del);
-    }));
-  };
-  const head = el("div", { class: "rows-head" }, numbered ? el("span", { class: "rnum" }, "#") : "",
-    ...cols.map((c) => el("span", { class: "rc", style: c.w ? `--w:${c.w}` : null }, c.label)), el("span", { class: "rdel" }));
-  const add = el("button", { class: "btn small", type: "button" }, "+ " + addLabel);
-  add.addEventListener("click", () => { rows.push(blank ? blank() : {}); draw(); onChange(); body.lastChild?.querySelector("input,select")?.focus(); });
-  draw();
-  host.append(head, body, add);
-  return host;
-}
-const card = (title, sub, ...kids) => el("section", { class: "scard" }, el("div", { class: "scard-h" }, el("h3", {}, title), sub ? el("p", { class: "small muted" }, sub) : ""), ...kids);
 
 // ------------------------------------------------------------------ the checks list (task pane + trainer view)
 export function checkList(checks, answer) {
@@ -206,34 +173,6 @@ function plannerCalendar(p, onChange) {
 }
 
 // ------------------------------------------------------------------ POSTS (composer)
-const idb = (() => {
-  let dbp = null;
-  const open = () => dbp || (dbp = new Promise((res, rej) => {
-    const r = indexedDB.open("d1lab_media", 1);
-    r.onupgradeneeded = () => r.result.createObjectStore("img");
-    r.onsuccess = () => res(r.result);
-    r.onerror = () => rej(r.error);
-  }));
-  const tx = (mode, fn) => open().then((db) => new Promise((res, rej) => {
-    const t = db.transaction("img", mode), q = fn(t.objectStore("img"));
-    t.oncomplete = () => res(q && q.result); t.onerror = () => rej(t.error);
-  }));
-  return { get: (k) => tx("readonly", (s) => s.get(k)).catch(() => null), set: (k, v) => tx("readwrite", (s) => s.put(v, k)).catch(() => null) };
-})();
-function readImage(file) {
-  return new Promise((res, rej) => {
-    const url = URL.createObjectURL(file), im = new Image();
-    im.onload = () => res({ im, url });
-    im.onerror = () => { URL.revokeObjectURL(url); rej(new Error("This file is not an image the browser can read (use JPG or PNG).")); };
-    im.src = url;
-  });
-}
-function shrink(im, maxW, q) {
-  const s = Math.min(1, maxW / im.naturalWidth), c = document.createElement("canvas");
-  c.width = Math.round(im.naturalWidth * s); c.height = Math.round(im.naturalHeight * s);
-  c.getContext("2d").drawImage(im, 0, 0, c.width, c.height);
-  return c.toDataURL("image/jpeg", q);
-}
 const imgKey = (scope, i) => `${scope}|${i}`;
 
 /** The live mock-up of one post on its platform. */
@@ -356,14 +295,15 @@ function postsTool(doc, onChange, opts) {
 // ------------------------------------------------------------------ mount
 /** Draw a tool into host. doc is the day's studio document (mutated in place); onChange saves it. */
 export function mountTool(host, tool, view, doc, onChange, opts = {}) {
-  const t = tool === "posts" ? postsTool(doc, onChange, opts) : view === "calendar" ? plannerCalendar(doc.planner, onChange) : plannerStrategy(doc.planner, onChange);
+  const t = ["video", "blog", "campaign"].includes(tool) ? mountProduce(tool, view, doc, onChange, opts) : tool === "posts" ? postsTool(doc, onChange, opts) : view === "calendar" ? plannerCalendar(doc.planner, onChange) : plannerStrategy(doc.planner, onChange);
   host.replaceChildren(t);
 }
-export const TOOL_NAMES = { planner: "Content Planner", posts: "Post Composer" };
+export const TOOL_NAMES = { planner: "Content Planner", posts: "Post Composer", video: "Storyboard", blog: "Blog Editor", campaign: "Campaign Scheduler" };
 
 // ------------------------------------------------------------------ read-only views (trainer board) and text (export)
 export function studioView(tool, a) {
   a = a || {};
+  if (["video", "blog", "campaign"].includes(tool)) return produceView(tool, a);
   if (tool === "posts") {
     return el("div", { class: "sview" }, el("div", { class: "pv-row" }, ...(a.items || []).map((it, i) => el("div", { class: "pv-mini" },
       el("div", { class: "small" }, el("b", {}, `Post ${i + 1} · ${(FORMATS[it.fmt] || {}).label || ""}`), it.img ? ` · ${it.img.w}×${it.img.h}` : " · no graphic"),
@@ -381,12 +321,9 @@ export function studioView(tool, a) {
     (a.keywords || []).length ? table(["Keyword", "Type", "Purpose", "Where"], a.keywords.map((r) => [r.kw, r.type, r.purpose, r.where])) : "",
     (a.calendar || []).length ? table(["Date", "Platform", "Type", "Hook", "Keyword", "CTA", "Mix", "Status"], a.calendar.map((r) => [r.date, r.platform, r.type, r.hook, r.kw, r.cta, r.mix, r.status])) : "");
 }
-const kv = (pairs) => el("dl", { class: "kv small" }, ...pairs.filter(([, v]) => v).flatMap(([k, v]) => [el("dt", {}, k), el("dd", {}, v)]));
-const table = (head, rows) => rows.some((r) => r.some(Boolean)) ? el("table", { class: "stable small" }, el("thead", {}, el("tr", {}, ...head.map((h) => el("th", {}, h)))),
-  el("tbody", {}, ...rows.map((r) => el("tr", {}, ...r.map((c) => el("td", {}, c || "")))))) : "";
-
 export function studioText(tool, a) {
   a = a || {};
+  if (["video", "blog", "campaign"].includes(tool)) return produceText(tool, a);
   const L = [];
   if (tool === "posts") {
     (a.items || []).forEach((it, i) => {

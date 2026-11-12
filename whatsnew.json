@@ -2,6 +2,17 @@
   "_how": "Newest first. When sw.js VERSION changes, add an entry with the SAME v. 'student' items are shown to students in the update window, 'trainer' items on the trainer board.",
   "versions": [
     {
+      "v": "d1-lab-v3",
+      "student": [
+        "Day 3 is here: Storyboard, Blog Editor and Campaign Scheduler.",
+        "Every lesson part now has its own narrated demonstration video, which starts and stops at its topic."
+      ],
+      "trainer": [
+        "Day 3 activities (video, SEO blog, campaign) with their checklists and rubrics.",
+        "Narrated demonstration videos for Days 2 and 3."
+      ]
+    },
+    {
       "v": "d1-lab-v2",
       "student": [
         "The lab is connected to the class server: sign in with the class code, your Student ID and PIN."

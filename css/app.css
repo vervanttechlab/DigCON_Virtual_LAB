@@ -1232,3 +1232,29 @@ a.pitem:hover { text-decoration: none; background: var(--panel-2); }
 .kv { display: grid; grid-template-columns: 90px 1fr; gap: 2px 10px; margin: 0; } .kv dt { color: var(--muted); } .kv dd { margin: 0; }
 .pv-top b { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pv-top span:last-child { white-space: nowrap; }
+
+/* ================================================================== Studio · Day 3 tools */
+.tline { margin-top: 12px; }
+.tl-parts, .tl-shots { position: relative; height: 22px; }
+.tl-parts { height: 20px; margin-bottom: 3px; }
+.tl-p { position: absolute; top: 0; height: 20px; font-size: 10px; font-weight: 700; color: #fff; padding: 3px 5px; overflow: hidden; white-space: nowrap; border-right: 1px solid var(--panel); }
+.tl-hook { background: var(--g-red); } .tl-value { background: var(--g-indigo); } .tl-proof { background: var(--g-green); } .tl-cta { background: var(--g-orange); }
+.tl-shots { background: var(--panel-2); border: 1px solid var(--line); }
+.tl-s { position: absolute; top: 2px; bottom: 2px; background: var(--accent-soft); border: 1px solid var(--accent); font-size: 10px; text-align: center; color: var(--accent); overflow: hidden; }
+.tl-foot { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 5px; }
+.okc { color: var(--good); } .warnc { color: var(--warn); }
+.pv-reel { max-width: 240px; }
+.pv-dur { position: absolute; top: 12px; right: 10px; background: rgba(0,0,0,.6); color: #fff; font-size: 11px; padding: 1px 6px; border-radius: 4px; }
+.pv-side { position: absolute; right: 8px; bottom: 90px; display: flex; flex-direction: column; gap: 14px; color: #fff; font-size: 18px; text-shadow: 0 1px 3px rgba(0,0,0,.6); }
+.serp { background: #fff; color: #202124; border: 1px solid #dadce0; border-radius: 8px; padding: 12px 14px; font-family: Arial, sans-serif; }
+.serp-url { color: #4d5156; margin-bottom: 2px; } .serp-t { color: #1a0dab; font-size: 18px; line-height: 1.3; margin-bottom: 3px; } .serp-d { color: #4d5156; line-height: 1.5; }
+.fmtbar { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 6px; }
+.stool textarea.mono { font-family: var(--mono); font-size: 12px; }
+.blog-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+@media (max-width: 1100px) { .blog-grid { grid-template-columns: 1fr; } }
+.blogpv { background: #fff; color: #222; border: 1px solid var(--line); padding: 14px 16px; font: 14px/1.6 Georgia, serif; max-height: 560px; overflow: auto; }
+.blogpv h1 { font: 700 22px/1.25 Arial, sans-serif; color: #1b2559; margin: 0 0 8px; }
+.blogpv h2 { font: 700 17px/1.3 Arial, sans-serif; color: #2348c9; margin: 16px 0 4px; }
+.blogpv img { width: 100%; aspect-ratio: 16/9; object-fit: cover; margin: 6px 0 10px; }
+.blogpv a { color: #2348c9; text-decoration: underline; }
+.bp-cat { font-family: Arial, sans-serif; color: #777; margin-bottom: 6px; }
