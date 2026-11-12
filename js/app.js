@@ -302,25 +302,61 @@ function accountMenu() {
 }
 
 // ------------------------------------------------------------------ views
+// ------------------------------------------------------------------ sign-in: one two-column page for students and trainers
+/** The sign-in page: GESTAAC brand panel on the left, the Student / Trainer form on the right (stacked on phones). */
+function authPage(role, form) {
+  cleanup.forEach((fn) => { try { fn(); } catch { /* ignore */ } });
+  cleanup = [];
+  document.body.classList.remove("has-snav", "has-bnav", "snav-rail");
+  const feat = (ic, t, d) => el("li", {}, el("span", { class: "af-ic" }, icon(ic)), el("div", {}, el("b", {}, t), el("span", {}, d)));
+  const tab = (r, label, href) => el("a", { class: "at" + (r === role ? " on" : ""), href, role: "tab", "aria-selected": r === role ? "true" : "false" }, icon(r === "student" ? "user" : "users"), label);
+  const brand = el("section", { class: "auth-brand" },
+    el("div", { class: "ab-top" }, el("img", { src: "img/gestaac-256.png", alt: "GESTAAC Inc.", class: "ab-logo" }),
+      el("div", {}, el("div", { class: "ab-org" }, "GESTAAC INC."), el("div", { class: "ab-app" }, "D1 Virtual Lab"))),
+    el("div", { class: "ab-mid" },
+      el("div", { class: "ab-kicker" }, "Creating Digital Marketing Content"),
+      el("h1", {}, "Plan, create and launch real content for local businesses."),
+      el("p", { class: "ab-sub" }, "Leading to Digital Marketing Level III · Blended learning"),
+      el("ul", { class: "ab-feats" },
+        feat("book", "Learn", "Lessons with short narrated demo videos"),
+        feat("pen", "Create", "Content Planner, Post Composer, Storyboard and Blog Editor"),
+        feat("chart", "Grow", "Instant checks, trainer feedback and your progress"))),
+    el("div", { class: "ab-foot" }, "Works on phones and computers · Saves your work offline"));
+  const panel = el("section", { class: "auth-panel" },
+    el("div", { class: "auth-card" },
+      el("div", { class: "ac-logo-sm" }, el("img", { src: "img/gestaac-96.png", alt: "" }), el("span", {}, "D1 Virtual Lab")),
+      el("nav", { class: "auth-tabs", role: "tablist", "aria-label": "Sign in as" }, tab("student", "Student", "#/login"), tab("trainer", "Trainer", "#/trainer")),
+      form,
+      el("p", { class: "ac-help small" }, el("a", { href: "guide.html" }, "New here? How to install the app and sign in"))),
+    el("p", { class: "ac-legal small" }, "© GESTAAC Inc. · For enrolled trainees and trainers"));
+  app.replaceChildren(el("main", { class: "auth" }, brand, panel));
+  window.scrollTo(0, 0);
+  setTimeout(() => form.querySelector("input")?.focus(), 50);
+}
+/** A password-style field with a Show / Hide button. */
+function secretField(label, name, extra = {}) {
+  const inp = el("input", { name, type: "password", required: true, ...extra });
+  const b = el("button", { class: "pw-toggle", type: "button", "aria-label": "Show " + label.toLowerCase() }, "Show");
+  b.addEventListener("click", () => { const show = inp.type === "password"; inp.type = show ? "text" : "password"; b.textContent = show ? "Hide" : "Show"; inp.focus(); });
+  return el("label", {}, label, el("div", { class: "pw-wrap" }, inp, b));
+}
+
 async function viewLogin() {
-  const f = el("form", { class: "form signin" });
-  f.innerHTML = `
-    <div class="signin-brand"><img src="img/gestaac-256.png" alt="GESTAAC Inc."><div><b>D1 Virtual Lab</b><span>GESTAAC Inc.</span></div></div>
-    <h2>Sign in</h2>
-    <p class="sub">Creating Digital Marketing Content · Leading to Digital Marketing Level III</p>
-    ${demoMode() ? `<p class="note">Demo mode: no class server is set up yet. Your work is saved on this device only.</p>
-      <label>Your name <input name="name" required autocomplete="name"></label>` : `
-      <label>Class code <input name="cls" required value="${esc(CONFIG.CLASS_CODE_HINT)}" autocapitalize="characters"></label>
-      <label>Student ID <input name="sid" required autocapitalize="characters" autocomplete="username"></label>
-      <label>PIN <input name="pin" required inputmode="numeric" type="password" autocomplete="current-password" maxlength="8"></label>`}
-    <button class="btn primary wide" type="submit">Sign in</button>
-    <p class="small" style="margin:12px 0 0"><a href="guide.html">New here? How to install the app and sign in</a></p>`;
-  shell("Sign in", null, f);
+  const btn = el("button", { class: "btn primary wide auth-go", type: "submit" }, "Sign in");
+  const f = el("form", { class: "form auth-form" },
+    el("h2", {}, "Welcome, trainee"),
+    el("p", { class: "sub" }, demoMode() ? "Demo mode: no class server is set up yet. Your work is saved on this device only."
+      : "Sign in with the class code, Student ID and PIN from your trainer."),
+    ...(demoMode() ? [el("label", {}, "Your name", el("input", { name: "name", required: true, autocomplete: "name" }))] : [
+      el("label", {}, "Class code", el("input", { name: "cls", required: true, value: CONFIG.CLASS_CODE_HINT || "", autocapitalize: "characters" })),
+      el("label", {}, "Student ID", el("input", { name: "sid", required: true, autocapitalize: "characters", autocomplete: "username", placeholder: "e.g. S001" })),
+      secretField("PIN", "pin", { inputmode: "numeric", autocomplete: "current-password", maxlength: 8 })]),
+    btn);
+  authPage("student", f);
   if (!demoMode()) call("ping", {}, { quiet: true, auth: false }).catch(() => {});      // wake the Apps Script server while they type
   loadScript("vendor/hyperformula.full.min.js").catch(() => {});                       // and fetch the engine in the background
   f.addEventListener("submit", async (e) => {
     e.preventDefault();
-    const btn = f.querySelector("button[type=submit]");
     if (demoMode()) {
       const name = f.name.value.trim();
       session.set({ id: "demo-" + name.toLowerCase().replace(/\W+/g, "-"), name, demo: true });
@@ -2458,19 +2494,23 @@ function trainerLogout() {
 }
 
 function trainerLogin() {
-  const f = el("form", { class: "form signin" });
-  f.innerHTML = `<h2>Trainer board</h2><p class="sub">Enter your trainer key. To see it: in your Google Sheet, open the <b>D1 Lab</b> menu › <b>Show class code and trainer key</b>.</p>
-    ${demoMode() ? `<p class="note">No class server is configured yet. Follow SETUP.md, put the web app URL in js/config.js, or paste it below.</p>
-      <label>Web app URL <input name="api" placeholder="https://script.google.com/macros/s/.../exec"></label>` : ""}
-    <label>Trainer key <input name="key" type="password" required autocomplete="current-password"></label>
-    <button class="btn primary wide" type="submit">Open board</button>`;
-  shell("Trainer", "#/", f);
+  const btn = el("button", { class: "btn primary wide auth-go", type: "submit" }, "Open trainer board");
+  const f = el("form", { class: "form auth-form" },
+    el("h2", {}, "Trainer board"),
+    el("p", { class: "sub" }, "Enter your trainer key. To see it: in your Google Sheet, open the ", el("b", {}, "D1 Lab"), " menu › ", el("b", {}, "Show class code and trainer key"), "."),
+    demoMode() ? el("p", { class: "note" }, "No class server is configured yet. Put the web app URL in js/config.js, or paste it below.") : "",
+    demoMode() ? el("label", {}, "Web app URL", el("input", { name: "api", placeholder: "https://script.google.com/macros/s/.../exec" })) : "",
+    secretField("Trainer key", "key", { autocomplete: "current-password" }),
+    btn);
+  authPage("trainer", f);
   f.addEventListener("submit", async (e) => {
     e.preventDefault();
     if (f.api && f.api.value.trim()) store.set("d1lab_api_override", f.api.value.trim());
     trainer.set(f.key.value.trim());
+    btn.disabled = true;
+    btn.textContent = "Opening…";
     try { await trainerCall("progress"); viewTrainer(); }
-    catch (err) { trainer.clear(); toast(err.message, "bad"); }
+    catch (err) { trainer.clear(); toast(err.message, "bad"); btn.disabled = false; btn.textContent = "Open trainer board"; }
   });
 }
 function trainerSettings() {

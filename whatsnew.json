@@ -2,6 +2,15 @@
   "_how": "Newest first. When sw.js VERSION changes, add an entry with the SAME v. 'student' items are shown to students in the update window, 'trainer' items on the trainer board.",
   "versions": [
     {
+      "v": "d1-lab-v4",
+      "student": [
+        "New sign-in page: choose Student or Trainer, and tap Show to check your PIN."
+      ],
+      "trainer": [
+        "New sign-in page with a Trainer tab: the trainer key now has a Show button."
+      ]
+    },
+    {
       "v": "d1-lab-v3",
       "student": [
         "Day 3 is here: Storyboard, Blog Editor and Campaign Scheduler.",

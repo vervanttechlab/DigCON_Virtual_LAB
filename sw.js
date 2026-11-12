@@ -1,5 +1,5 @@
 // Offline support: cache the app shell and day data; the Apps Script API is never cached.
-const VERSION = "d1-lab-v3";
+const VERSION = "d1-lab-v4";
 const SHELL = [
   "./", "index.html", "manifest.webmanifest", "css/app.css",
   "js/app.js", "js/api.js", "js/config.js", "js/ui.js", "js/workbook.js", "js/grid.js", "js/stats.js", "js/studio.js", "js/studio-kit.js", "js/studio-produce.js",
